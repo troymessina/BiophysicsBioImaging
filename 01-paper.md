@@ -100,64 +100,69 @@ From Fig.\ref{Fig1-5} we see that a step corresponds to one half of the full sin
 \pi = \sqrt{\frac{g}{\ell}}\tau
 \end{eqnarray}
 Solving for $\tau$, we get the theoretical time it takes for the leg to step forward:
-\begin{eqnarray}\label{eqn1-11}
+$$\begin{eqnarray}\label{eqn1-11}
 \tau = \pi\sqrt{\frac{\ell}{g}}
-\end{eqnarray}
+\end{eqnarray}$$
 Interestingly enough, in this model, the mass of the body or leg does not affect how long it takes for an animal to take a step; only the leg length and the magnitude of gravity are determining factors.  Note that the stepping time $\tau$ varies with the square root of $\ell$, proving that our intuition is correct—longer legs do require more time to take a step.
 
 How accurately does Eq.~\ref{eqn1-11} predict stepping time?  The leg of the average adult human is approximately 0.9 m, corresponding to a theoretical stepping time of 0.95 s.  Biophysics students measure $\tau$ as part of a laboratory activity, finding it to be closer to 0.6-0.7 s.  The error is about 50\%, which is relatively small when one considers that the human leg looks nothing like a point mass attached to a massless string.  In the next section, we will improve the model by taking into account the distribution of mass in the leg.  
 
-\subsection{The Physical Pendulum: A Refined Model}
+### The Physical Pendulum: A Refined Model
 
 Contrasted with the simple pendulum where the mass is concentrated at a point, the physical pendulum approach is capable of handling any arbitrary distribution of mass that swings about a fixed pivot.  Examine the diagram shown below for a human leg swinging as a physical pendulum.
-\begin{figure}[htb]
-	\centering
-	\includegraphics[width=3.5in]{./figures/Topic1/Figure1-6.jpg}
-	\caption{Free body diagram of the physical pendulum.}
-	\label{Fig1-6}
-\end{figure}
+```{figure} images/Topic1/Figure1-6.jpg
+:height:300px
+:name: Fig1-6
+:alt: Free body diagram of the physical pendulum.
+
+Free body diagram of the physical pendulum.
+```
   
 A significant difference between the simple pendulum and the physical pendulum models is that the first looks at the action of forces, whereas the second focuses on torques. Recall that a torque is the turning force that causes objects to rotate about a pivot point. The strength of the torque is dependent not only on the applied force but also on distance from where it is applied to the pivot point. In this case, gravity is the only force that causes rotational motion, and the magnitude of the torque associated with this force is the force $F$ times the distance from where it is applied to the pivot point ($R$). In addition, the product must be multiplied by the sine of the angle between the directions of the force and the line of action which connects the pivot point to the center of mass. The resulting expression is $w R \sin\theta$, or $m g R \sin\theta$, where $R$ is the distance from the pivot point to the center of mass.  Note that in Fig.~\ref{Fig1-6} the direction of the torque (clockwise) opposes the angular displacement $\theta$ (counter-clokwise). This is always the case, even if the leg is to the left of the centerline; in that case the direction of the angular displacement is clockwise whereas that of the torque is counter-clockwise. 
 The sum of the torques acting on the mass obeys the equation
-\begin{eqnarray}\label{eqn1-12}
+
+$$\begin{eqnarray}\label{eqn1-12}
 \sum \tau = I\alpha
-\end{eqnarray}
+\end{eqnarray}$$
+
 where $\tau$ is now defining torque rather than a characteristice time, $I$ is the moment of inertia and $\alpha$ is the angular acceleration.  Recall that the moment of inertia takes into account the distribution of mass of the leg.  In fact, if you divide the leg into small masses, and identify each mass $m$ with an index $n$, the moment of inertia is given by the formula  $$I=\sum_n m_n R_n^2.$$  
 Angular acceleration, $\alpha$ is the second derivative of $\theta$ with respect to time.  Thus, Eq.~\ref{eqn1-12} can be rewritten as
-\begin{eqnarray}\label{eqn1-13}
+
+$$\begin{eqnarray}\label{eqn1-13}
 -R m g \sin\left(\theta\right)=I\frac{d^2\theta}{dt^2}
-\end{eqnarray}
+\end{eqnarray}$$
+
 Rearranging, we get:
-\begin{eqnarray}\label{eqn1-14}
+$$\begin{eqnarray}\label{eqn1-14}
 \frac{d^2\theta}{dt^2} = -\frac{Rmg}{I}\sin\theta
-\end{eqnarray}
+\end{eqnarray}$$
 As we stated earlier, an animal’s leg rarely subtends an angle greater than 20$^{\circ}$ relative to the normal while walking.  This means that that we can take advantage of the small angle approximation, which states that for angles less than 20$^{\circ}$, $\sin\theta \approx \theta$.  (Recall that the small angle approximation only holds when the angle is expressed in radians.)  Eq.~\ref{eqn1-14} simplifies to
-\begin{eqnarray}\label{eqn1-15}
+$$\begin{eqnarray}\label{eqn1-15}
 \frac{d^2\theta}{dt^2} = -\frac{RMg}{I}\theta
-\end{eqnarray}
+\end{eqnarray}$$
 Compare Eq.~\ref{eqn1-7} to Eq.~\ref{eqn1-15}.  Instead of $x$, we now have $\theta$, and instead of the constant $g/\ell$, we now have $Rmg/I$.  Observing these substitutions makes solving Eq.~\ref{eqn1-15} easy, because we have already solved Eq.~\ref{eqn1-7}. The solutions are of the form: 
-\begin{eqnarray}\label{eqn1-16}
+$$\begin{eqnarray}\label{eqn1-16}
 \theta(t) = A \sin\left(\sqrt{\frac{Rmg}{I}}t\right)
-\end{eqnarray}
+\end{eqnarray}$$
 or
-\begin{eqnarray}\label{eqn1-17}
+$$\begin{eqnarray}\label{eqn1-17}
 \theta(t) = A \cos\left(\sqrt{\frac{Rmg}{I}}t\right)
-\end{eqnarray}
+\end{eqnarray}$$
 Also analogous to the previous case, a step corresponds to the time when the period is 
-\begin{eqnarray}\label{eqn1-18}
+$$\begin{eqnarray}\label{eqn1-18}
 \pi = \sqrt{\frac{Rmg}{I}}t
-\end{eqnarray}
+\end{eqnarray}$$
 and the stepping time is
-\begin{eqnarray}\label{eqn1-19}
+$$\begin{eqnarray}\label{eqn1-19}
 \tau = \pi\sqrt{\frac{I}{Rmg}}
-\end{eqnarray}
+\end{eqnarray}$$
 As stated above, the moment of inertia $I$ of an object pivoting about an axis is found by first breaking down the object into small pieces each with the same mass $m$. After identifying each mass $m$ with an index $n$, the moment of inertia is given by the formula $I=\sum_n m_nR_n^2$.   Most physics textbooks list the result of this calculation for the moments of inertia of various bodies with simple geometries. To take advantage of these existing formulas for $I$, we can assume a simplified shape for the leg by thinking of it as a slender rod with a pivot through one end (the hip).  Accordingly, 
 $$I=\frac{1}{3}m\ell^2$$
 $$R = \frac{1}{2}\ell$$
 where $\ell$ is the length of the leg and $m$ is the total mass of the leg. If we substitute these equations into Eq.~\ref{eqn1-19}, we get an equation that calculates the stepping time, accounting for the continuous mass distribution of the leg.
-\begin{eqnarray}\label{eqn1-20}
+$$\begin{eqnarray}\label{eqn1-20}
 \tau = \pi\sqrt{\frac{2\ell}{3g}}
-\end{eqnarray}
+\end{eqnarray}$$
 This equation is almost identical to Eq.~\ref{eqn1-11} for the simple pendulum case, with the exception of a new constant, $\sqrt{2/3}$, which is approximately 0.8.  The new factor makes the theoretical stepping time $\tau$ = 0.78 s, which is about 20\% lower than when computed using the simple pendulum model.  Now the theoretical time more closely matches the experimental measurements for adult humans, which was in the range of 0.6 to 0.7 s.
 
 One might be tempted to think that leg length is the only variable that affects the stepping time.  However, $\tau$ is just as dependent on the gravitational constant.  Eq.~\ref{eqn1-20} explains why astronauts move differently on the moon, where $g$ is about 1/6 of Earth’s value.  Because of the diminished $g$, each step takes about 2.5 (or $\sqrt{6}$) times as long as on Earth. The increased stepping time apparently became unbearably long for these astronauts, who immediately found that to get from point A to point B quickly, it was more efficient to hop than to walk.  This incident also underscores how our bodies have adapted to the gravitational environment in which we live.
