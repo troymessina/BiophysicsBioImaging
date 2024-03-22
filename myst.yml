@@ -2,14 +2,14 @@
 version: 1
 project:
   #id: e5d25ecc-b59c-4e9d-a56a-35d9e57d7739
-  title: Biophysics and Bioimaging
+  #title: Biophysics and Bioimaging
   # description:
   keywords: [Biophysics]
   authors: [Juan Rodriguez, Kathryn Thompson, and Meridith Stewart]
   github: https://github.com/troymessina/BiophysicsBioImaging
 site:
   template: book-theme
-  title: Biophysics and Bioimaging
+  #title: Biophysics and Bioimaging
   options:
     logo: images/cover.png
   nav: []
