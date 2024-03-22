@@ -1,4 +1,4 @@
-![](./images/Topic1/Topic1.jpg)
+![Topic 1 - Animal Locomotion](./images/Topic1/Topic1.jpg)
 
 ## Introduction
 
