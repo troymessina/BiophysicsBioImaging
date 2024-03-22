@@ -1,6 +1,6 @@
-# MyST Quickstart
+# Biophysics and BioImaging Frontmatter
 
-[![Made with MyST](https://img.shields.io/badge/made%20with-myst-orange)](https://myst.tools)
+#[![Made with MyST](https://img.shields.io/badge/made%20with-myst-orange)](https://myst.tools)
 
 This repository contains the files used in the [quickstart guide](https://myst.tools/docs/mystjs/quickstart), and can be used to follow that guide, before trying MyST with your own content.
 
