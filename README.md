@@ -6,11 +6,5 @@ This repository contains the files used in the [quickstart guide](https://myst.t
 
 Here's how to link [quickstart guide](https://myst.tools/docs/mystjs/quickstart).
 
-
-## Improving Frontmatter and MyST Site
-
 ![](./images/cover.png)
 
-## Export as a PDF
-
-![](./images/export-pdf.png)

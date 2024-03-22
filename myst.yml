@@ -1,7 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: e5d25ecc-b59c-4e9d-a56a-35d9e57d7739
+  #id: e5d25ecc-b59c-4e9d-a56a-35d9e57d7739
   title: Biophysics and Bioimaging
   # description:
   keywords: [Biophysics]
@@ -11,7 +11,7 @@ site:
   template: book-theme
   title: Biophysics and Bioimaging
   options:
-    logo: cover.PNG
+    logo: images/cover.png
   nav: []
   #actions:
   #  - title: Learn More
