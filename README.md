@@ -1,10 +1,5 @@
 # Biophysics and BioImaging
+<img src="./images/cover.png>
+This is a biophysics textbook written by undergraduate students for undergraduate students. I covers the application of introductory- and intermediate-level physics topics to biophysical systems. It is a textbook written for junior and senior undergraduate students. Throughout the book are activities that are designed to strengthen student understanding.
 
-This repository contains the files used in the [quickstart guide](https://myst.tools/docs/mystjs/quickstart), and can be used to follow that guide, before trying MyST with your own content.
-
-> **Note** This is **not** a good example of an actual myst project! The repositories purpose is to be a simple markdown + notebook repository that can be transformed throughout a tutorial.
-
-Here's how to link [quickstart guide](https://myst.tools/docs/mystjs/quickstart).
-
-![](./images/cover.png)
 
