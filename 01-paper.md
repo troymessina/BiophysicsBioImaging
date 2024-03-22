@@ -1,4 +1,5 @@
-# How to MyST, without being mystified 🧙
+# Topic 1 - Locomotion
+![](./images/Topic1/Topic1.jpg)
 
 A tutorial to evolve markdown documents and notebooks into structured data
 
