@@ -1,5 +1,5 @@
 ![Topic 1 - Animal Locomotion](./images/Topic1/Topic1.jpg)
-
+# Topic 1 - Animal Locomotion
 ## Introduction
 
 Imagine a giraffe, a Chihuahua, and an ant walking side by side without undue urgency. For every stride that the giraffe makes, the Chihuahua takes many and the ant many more. Most people intuitively know that the shorter the length of one’s legs, the faster they tend to swing. In other words, an inverse relation exists between the size of a creature and how quickly it can move its legs. Why would such a scaling relation exist?  
