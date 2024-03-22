@@ -11,19 +11,15 @@ When walking at a leisurely pace, one may assume that the locomotion is executed
 
 While almost any object can act as a pendulum, those that possess complex physical forms are difficult to analyze.  For this reason, we will begin by examining the most straightforward case: the simple pendulum in a gravitational field.  The simple pendulum is aptly named, for it simply consists of a point mass suspended from a massless string.  The string is made massless to avoid having to calculate its rotational inertia, which, as you may recall, is a quantity that depends on the distribution of mass.  If we think of the leg as a simple pendulum, it is as if the entire mass of the leg is concentrated in the foot.  Figure \ref{Fig1-1} below shows a simple pendulum of length $\ell$ and mass $m$.  As the pendulum oscillates, the point mass traces an arc of the circle of radius $\ell$.
 ```{figure} images/Topic1/Figure1-1.jpg
-:scale: 100 %
+:scale: 300 %
 :name: Fig1-1
 :alt: The simple pendulum with length $\ell$ and mass $m$.
 
 The simple pendulum with length $\ell$ and mass $m$.
 ```
-<img src="./images/Topic1/Figure1-1.jpg" alt="The simple pendulum with length $\ell$ and mass $m$." width="200px" class="bg-primary">
-![The simple pendulum with length $\ell$ and mass $m$.](./images/Topic1/Figure1-1.jpg)
-
-
  
 We are now ready to derive an equation that describes the position of the pendulum as a function of time.  From the equation, we will then obtain another equation that computes the stepping time for an animal.  
-What are the forces acting on the mass?  The best way to visualize them is by drawing a force diagram (Figure~\ref{Fig1-2}).  
+What are the forces acting on the mass?  The best way to visualize them is by drawing a force diagram ([Fig.](#Fig1-2)).  
 ```{figure} images/Topic1/Figure1-2.jpg
 :scale: 100 %
 :name: Fig1-2
