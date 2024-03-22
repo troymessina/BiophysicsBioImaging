@@ -11,7 +11,7 @@ When walking at a leisurely pace, one may assume that the locomotion is executed
 
 While almost any object can act as a pendulum, those that possess complex physical forms are difficult to analyze.  For this reason, we will begin by examining the most straightforward case: the simple pendulum in a gravitational field.  The simple pendulum is aptly named, for it simply consists of a point mass suspended from a massless string.  The string is made massless to avoid having to calculate its rotational inertia, which, as you may recall, is a quantity that depends on the distribution of mass.  If we think of the leg as a simple pendulum, it is as if the entire mass of the leg is concentrated in the foot.  [Figure 1.1](#Fig1-1) below shows a simple pendulum of length $\ell$ and mass $m$.  As the pendulum oscillates, the point mass traces an arc of the circle of radius $\ell$.
 ```{figure} images/Topic1/Figure1-1.jpg
-:scale: 300 %
+:height: 300px
 :name: Fig1-1
 :alt: The simple pendulum with length $\ell$ and mass $m$.
 
