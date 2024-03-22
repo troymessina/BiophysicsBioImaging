@@ -11,7 +11,7 @@ site:
   template: book-theme
   #title: Biophysics and Bioimaging
   options:
-    logo: images/cover.png
+    logo: images/cover.PNG
   nav: []
   #actions:
   #  - title: Learn More
