@@ -53,7 +53,7 @@ Force diagram, with the tension, $T$, broken down into its $x$ and $y$ component
 \sum F_y = -w + T \cos\left(\theta\right) = 0
 ```
 
-When {eq}`Fy` is solved for the tension ($T = w/ \cos(\theta)$), and this expression is substituted for $T$ in {eq}`Fx`, we derive the following relation between $a_x$ and the weight 
+When Eqn. {eq}`Fy` is solved for the tension ($T = w/ \cos(\theta)$), and this expression is substituted for $T$ in Eqn. {eq}`Fx`, we derive the following relation between $a_x$ and the weight 
 \begin{eqnarray}\label{eqn1-3}
 ma_x = -\frac{w}{\cos\left(\theta\right)} \sin\left(\theta\right) = -w \tan\left(\theta\right)
 \end{eqnarray}
