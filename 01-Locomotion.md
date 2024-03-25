@@ -1,9 +1,9 @@
 ---
-banner: ./images/Topic1/Topic1.jpg
+title: Topic 1 - Animal Locomotion
 ---
 
 ![](./images/Topic1/Topic1.jpg)
-# Topic 1 - Animal Locomotion
+
 
 ## Introduction
 
