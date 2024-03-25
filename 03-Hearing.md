@@ -1,5 +1,8 @@
+---
+Topic 3 - Wave Phenomenon in Hearing
+---
+
 ![](./images/Topic3/Topic3.jpg)
-# Topic 3 - Hearing
 
 ## Introduction
 
