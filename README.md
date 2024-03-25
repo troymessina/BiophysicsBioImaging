@@ -3,10 +3,14 @@ title: Biophysics and BioImaging
 date: 2024-05-25
 authors:
   - name: Juan Rodriguez
-    affiliations:
+    affiliation:
       - University of Health Sciences and Pharmacy in St. Louis
+  - name: Kathryn Thompson
+	affiliation:
       - Centenary College of Louisiana (student)
+  - name: Meridith Stewart
       - Centenary College of Louisiana (student)
+  - name: Troy C. Messina
 	  - Berea College
 ---
 
