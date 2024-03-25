@@ -30,8 +30,11 @@ Free-body diagram for mass $m$.
 ```
 	
 According to Newton’s 2nd Law, the sum of the forces along the $x$-axis and $y$-axis are equal to the mass, $m$, multiplied by the acceleration in the $x$-direction, $a_x$, and in the $y$-direction, $a_y$, respectively.
-$$\sum F_x = ma_x$$
-$$\sum F_y = ma_y$$
+```{math}
+:label: sumF
+\sum F_x = ma_x\\
+\sum F_y = ma_y
+```
 To simplify the problem, we will assume that the movement of the foot along the $y$-direction is always negligible compared to the one along the $x$-direction. This is approximately true when taking moderate steps, for which the angle $\theta$ rarely exceeds 20$^{\circ}$. If so, we may also ignore the acceleration of the foot along the $y$ when we invoke Newton’s second law. When taking this into account, and breaking down the forces into $x$ and $y$ components as shown in [Fig. 1.3](#Fig1-3), we obtain 
 ```{figure} images/Topic1/Figure1-3.jpg
 :height: 300px
@@ -42,15 +45,15 @@ Force diagram, with the tension, $T$, broken down into its $x$ and $y$ component
 ``` 
 
 ```{math}
-:label: eqn1-1
+:label: Fx
 \sum F_x = T \sin\left(\theta\right) = ma_x
 ```
 ```{math}
-:label: eqn1-2
+:label: Fy
 \sum F_y = -w + T \cos\left(\theta\right) = 0
 ```
 
-When [Eq. 1.2](#eqn1-2) is solved for the tension ($T = w/ \cos(\theta)$), and this expression is substituted for $T$ in [Eq. 1.1](#eqn1-1), we derive the following relation between $a_x$ and the weight 
+When {eq}'Fy' is solved for the tension ($T = w/ \cos(\theta)$), and this expression is substituted for $T$ in {eq}'Fx', we derive the following relation between $a_x$ and the weight 
 \begin{eqnarray}\label{eqn1-3}
 ma_x = -\frac{w}{\cos\left(\theta\right)} \sin\left(\theta\right) = -w \tan\left(\theta\right)
 \end{eqnarray}
