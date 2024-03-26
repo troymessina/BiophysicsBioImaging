@@ -107,7 +107,9 @@ x = A \cos\left(\sqrt{\frac{g}{\ell}}~t\right)
 where $A$ is a constant. [^1]
 
 The constant, $A$, in each case refers to the amplitude of the step, and we can visualize the motion in terms of its oscillatory behavior, shown in Figure\ref{Fig1-5}.
-```{figure} /images/Topic1/Figure1-5a.png
+```
+/images/Topic1/Figure1-5a.png
+/images/Topic1/Figure1-5b.png
 :name: Fig1-5a
 :width: 500px
 :alt: As the back leg moves forward it undergoes motion corresponding to half of a full pendulum oscillation.
