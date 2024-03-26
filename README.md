@@ -1,6 +1,6 @@
 ---
 title: Biophysics and BioImaging
-authors: [Juan Rodriguez, Kathryn Thompson, Meridith Stewart, and Troy Messina]
+authors: [Juan Rodriguez, Kathryn Thompson, Meridith Stewart, Troy Messina]
 ---
 
 <img src="./images/cover.PNG" width="600" alt="Biophysics and BioImaging cover art">
