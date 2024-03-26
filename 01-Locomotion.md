@@ -114,9 +114,9 @@ The constant, $A$, in each case refers to the amplitude of the step, and we can 
 :width: 500px
 
 (my-figure-fruit)=
-![The leg swings forward from behind to in front of the body.](images/Topic1/Figure1-5a)
+![The leg swings forward.](images/Topic1/Figure1-5a)
 
-![The position of the leg moves through $\pi$ radians during this interval.](images/Topic1/Figure1-5b)
+![The position of the leg moves through {math}`\pi` radians during this interval.](images/Topic1/Figure1-5b)
 
 As the back leg moves forward it undergoes motion corresponding to half of a full pendulum oscillation.
 :::
