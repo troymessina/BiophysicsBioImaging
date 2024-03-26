@@ -98,7 +98,7 @@ Substituting Eqn. {eq}`eq1-7` into Eqn. {eq}`eq1-8`, we arrive at the equation w
 :label: eq1-9
 \frac{d^2x}{dt^2} = -\frac{g}{\ell}x
 ``` 
-Eqn.{eq}`eqn1-9` is of a type known as a ``differential equation'' because it contains a derivative of what you solving for. Since solving differential equations is beyond the scope of the course, the steps are left to the more ambitious student.  However, as you will verify in one of your homework problems, the following solutions satisfy Eqn.{eq}`eqn1-9`.
+Eqn.{eq}`eq1-9` is of a type known as a ``differential equation'' because it contains a derivative of what you solving for. Since solving differential equations is beyond the scope of the course, the steps are left to the more ambitious student.  However, as you will verify in one of your homework problems, the following solutions satisfy Eqn.{eq}`eq1-9`.
 ```{math}
 :label: eq1-10
 x = A \sin\left(\sqrt{\frac{g}{\ell}}~t\right)\\
@@ -114,21 +114,26 @@ The constant, $A$, in each case refers to the amplitude of the step, and we can 
 
 As the back leg moves forward it undergoes motion corresponding to half of a full pendulum oscillation.
 ```
-	\includegraphics[width=3.25in]{./figures/Topic1/Figure1-5b.png}
-	\caption{As the back leg moves forward it undergoes motion corresponding to half of a full pendulum oscillation.}
-	\label{Fig1-5}
-\end{figure}
-From Fig.\ref{Fig1-5} we see that a step corresponds to one half of the full sinusoidal oscillation. In terms of our solutions Eq~\ref{eqn1-8} and Eq.~\ref{eqn1-9}, this corresponds to a time such that 
-\begin{eqnarray}\label{eqn1-10}
+```{figure} /images/Topic1/Figure1-5b.png
+:name: Fig1-5b
+:width: 300px
+:alt: As the back leg moves forward it undergoes motion corresponding to half of a full pendulum oscillation.
+
+As the back leg moves forward it undergoes motion corresponding to half of a full pendulum oscillation.
+```
+From [Fig. 5a]{Fig1-5a} and [Fig. 5b]{Fig1-5b} we see that a step corresponds to one half of the full sinusoidal oscillation. In terms of our solutions Eqn. {eq}`eq1-10`, this corresponds to a time such that 
+```{math}
+:label: eq1-11
 \pi = \sqrt{\frac{g}{\ell}}\tau
-\end{eqnarray}
+```
 Solving for $\tau$, we get the theoretical time it takes for the leg to step forward:
-$$\begin{eqnarray}\label{eqn1-11}
+```{math}
+:label: eq1-12
 \tau = \pi\sqrt{\frac{\ell}{g}}
-\end{eqnarray}$$
+```
 Interestingly enough, in this model, the mass of the body or leg does not affect how long it takes for an animal to take a step; only the leg length and the magnitude of gravity are determining factors.  Note that the stepping time $\tau$ varies with the square root of $\ell$, proving that our intuition is correct—longer legs do require more time to take a step.
 
-How accurately does Eq.~\ref{eqn1-11} predict stepping time?  The leg of the average adult human is approximately 0.9 m, corresponding to a theoretical stepping time of 0.95 s.  Biophysics students measure $\tau$ as part of a laboratory activity, finding it to be closer to 0.6-0.7 s.  The error is about 50\%, which is relatively small when one considers that the human leg looks nothing like a point mass attached to a massless string.  In the next section, we will improve the model by taking into account the distribution of mass in the leg.  
+How accurately does Eqn. {eq}`eq1-12` predict stepping time?  The leg of the average adult human is approximately 0.9 m, corresponding to a theoretical stepping time of 0.95 s.  Biophysics students measure $\tau$ as part of a laboratory activity, finding it to be closer to 0.6-0.7 s.  The error is about 50\%, which is relatively small when one considers that the human leg looks nothing like a point mass attached to a massless string.  In the next section, we will improve the model by taking into account the distribution of mass in the leg.  
 
 ### The Physical Pendulum: A Refined Model
 
