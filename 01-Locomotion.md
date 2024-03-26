@@ -116,13 +116,18 @@ The constant, $A$, in each case refers to the amplitude of the step, and we can 
 
 As the back leg moves forward it undergoes motion corresponding to half of a full pendulum oscillation.
 ```
-```{figure} /images/Topic1/Figure1-5b.png
-:name: Fig1-5b
-:width: 500px
-:alt: As the back leg moves forward it undergoes motion corresponding to half of a full pendulum oscillation.
+:::{figure}
+:name: Fig1-5
+:align: left
+
+(my-figure-fruit)=
+![The leg swings forward from behind to in front of the body.](images/Topic1/Figure1-5a)
+
+![The position of the leg moves through $\pi$ radians during this interval.](images/Topic1/Figure1-5b)
 
 As the back leg moves forward it undergoes motion corresponding to half of a full pendulum oscillation.
-```
+:::
+
 From [Fig. 5](#Fig1-5a) and [Fig. 6](#Fig1-5b) we see that a step corresponds to one half of the full sinusoidal oscillation. In terms of our solutions Eqn. {eq}`eq1-10`, this corresponds to a time such that 
 ```{math}
 :label: eq1-11
