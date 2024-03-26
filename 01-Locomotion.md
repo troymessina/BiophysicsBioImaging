@@ -70,7 +70,7 @@ Since $w=mg$, we can simplify:
 ma_x = -mg \tan\left(\theta\right)\\
 a_x = -g \tan\left(\theta\right)             
 ```
-Note that the acceleration is not constant, that is, it varies with the angle $\theta$, which is dependent on the position $x$ of the foot along the horizontal. Hence we cannot use simple approaches like the kinematic equations to solve for the time it takes to complete a step.  We will approach the solution to Eqn. {eq}'ma_x2' differently than what is done in an introductory physics course. 
+Note that the acceleration is not constant, that is, it varies with the angle $\theta$, which is dependent on the position $x$ of the foot along the horizontal. Hence we cannot use simple approaches like the kinematic equations to solve for the time it takes to complete a step.  We will approach the solution to Eqn. {eq}`ma_x2` differently than what is done in an introductory physics course. 
 Recall that the tangent of an angle can be defined as the ratio of the opposite and adjacent sides of a right triangle.
 $$\tan\left(\theta\right)  = \frac{{\rm opposite}}{{\rm adjacent}}$$
 In our case, as shown below in Fig.~\ref{Fig1-4}, the adjacent of angle $\theta$ is simply the length of the leg $\ell$. 
