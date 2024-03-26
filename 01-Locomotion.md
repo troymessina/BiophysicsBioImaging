@@ -121,7 +121,7 @@ As the back leg moves forward it undergoes motion corresponding to half of a ful
 
 As the back leg moves forward it undergoes motion corresponding to half of a full pendulum oscillation.
 ```
-From [Fig. 5a]{Fig1-5a} and [Fig. 5b]{Fig1-5b} we see that a step corresponds to one half of the full sinusoidal oscillation. In terms of our solutions Eqn. {eq}`eq1-10`, this corresponds to a time such that 
+From [Fig. 5a](#Fig1-5a) and [Fig. 5b](#Fig1-5b) we see that a step corresponds to one half of the full sinusoidal oscillation. In terms of our solutions Eqn. {eq}`eq1-10`, this corresponds to a time such that 
 ```{math}
 :label: eq1-11
 \pi = \sqrt{\frac{g}{\ell}}\tau
