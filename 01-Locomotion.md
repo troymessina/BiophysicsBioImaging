@@ -73,26 +73,27 @@ a_x = -g \tan\left(\theta\right)
 Note that the acceleration is not constant, that is, it varies with the angle $\theta$, which is dependent on the position $x$ of the foot along the horizontal. Hence we cannot use simple approaches like the kinematic equations to solve for the time it takes to complete a step.  We will approach the solution to Eqn. {eq}`ma_x2` differently than what is done in an introductory physics course. 
 Recall that the tangent of an angle can be defined as the ratio of the opposite and adjacent sides of a right triangle.
 $$\tan\left(\theta\right)  = \frac{{\rm opposite}}{{\rm adjacent}}$$
-In our case, as shown below in Fig.~\ref{Fig1-4}, the adjacent of angle $\theta$ is simply the length of the leg $\ell$. 
-\begin{figure}[htb]
-	\centering
-	\includegraphics[width=2.5in]{./figures/Topic1/Figure1-4.jpg}
-	\caption{Adjacent and opposite sides of the triangle defined by $\theta$.}
-	\label{Fig1-4}
-\end{figure} 
-The opposite here corresponds to the displacement of the foot, or $x$, along the x-direction. Accordingly, $\tan\left(\theta\right) \approx x/l$, and Eq.~\ref{eqn1-4} becomes:
-\begin{eqnarray}\label{eqn1-5}
+In our case, as shown below in [Fig. 1.4](#Fig1-4), the adjacent of angle $\theta$ is simply the length of the leg $\ell$. 
+```{figure} images/Topic1/Figure1-4.jpg
+:height: 300px
+:name: Fig1-4
+:alt: Adjacent and opposite sides of the triangle defined by $\theta$.
+	Adjacent and opposite sides of the triangle defined by $\theta$.
+```
+The opposite here corresponds to the displacement of the foot, or $x$, along the x-direction. Accordingly, $\tan\left(\theta\right) \approx x/l$, and Eqn. {eq}`ma_x2` becomes:
+```{math}
+:label: a_xapprox
 a_x = -\frac{g}{\ell}x
-\end{eqnarray}             
-But ax also varies with position and time.  Recall that velocity is the first derivative of position with respect to time and that acceleration is the first derivative of velocity with respect to time.  It follows that acceleration is the second derivative of position with respect to time, written in differential form as:
+```             
+But $a_x$ also varies with position and time.  Recall that velocity is the first derivative of position with respect to time and that acceleration is the first derivative of velocity with respect to time.  It follows that acceleration is the second derivative of position with respect to time, written in differential form as:
 \begin{eqnarray}\label{eqn1-6}
 a_x = \frac{d^2x}{dt^2}
 \end{eqnarray}      
-Substituting Eq.~\ref{eqn1-4} into Eq.~\ref{eqn1-5}, we arrive at the equation we must solve for $x$:
+Substituting Eqn. {eq}`ma_x2` into Eq.~\ref{eqn1-5}, we arrive at the equation we must solve for $x$:
 \begin{eqnarray}\label{eqn1-7}
 \frac{d^2x}{dt^2} = -\frac{g}{\ell}x
 \end{eqnarray} 
-Eq.~\ref{eqn1-7} is of a type known as a ``differential equation'' because it contains a derivative of what you solving for. Since solving differential equations is beyond the scope of the course, the steps are left to the more ambitious student.  However, as you will verify in one of your homework problems, the following solutions satisfy Eq.~\ref{eqn1-7}.
+Eqn.{eq}`eqn1-7` is of a type known as a ``differential equation'' because it contains a derivative of what you solving for. Since solving differential equations is beyond the scope of the course, the steps are left to the more ambitious student.  However, as you will verify in one of your homework problems, the following solutions satisfy Eq.~\ref{eqn1-7}.
 \begin{eqnarray}\label{eqn1-8}
 x = A \sin\left(\sqrt{\frac{g}{\ell}}~t\right)
 \end{eqnarray}
