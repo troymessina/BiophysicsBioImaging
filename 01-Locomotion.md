@@ -104,11 +104,12 @@ Eqn.{eq}`eqn1-9` is of a type known as a ``differential equation'' because it co
 x = A \sin\left(\sqrt{\frac{g}{\ell}}~t\right)\\
 x = A \cos\left(\sqrt{\frac{g}{\ell}}~t\right)
 ```
-where $A$ is a constant. [^1]:{The procedure is quite simple.  To verify for example that Eqn. {eq}`eq1-10` is a solution, first take the second derivative of the right hand side. Then show that with some algebraic manipulation that it equals $-(g/l)x$ as Eqn. {eq}`eq1-9` suggests.}
+where $A$ is a constant. [^1]
 
 The constant, $A$, in each case refers to the amplitude of the step, and we can visualize the motion in terms of its oscillatory behavior, shown in Figure\ref{Fig1-5}.
 ```{figure} /images/Topic1/Figure1-5a.png
 :name: Fig1-5a
+:width: 300px
 :alt: As the back leg moves forward it undergoes motion corresponding to half of a full pendulum oscillation.
 
 As the back leg moves forward it undergoes motion corresponding to half of a full pendulum oscillation.
@@ -188,3 +189,5 @@ $$\begin{eqnarray}\label{eqn1-20}
 This equation is almost identical to Eq.~\ref{eqn1-11} for the simple pendulum case, with the exception of a new constant, $\sqrt{2/3}$, which is approximately 0.8.  The new factor makes the theoretical stepping time $\tau$ = 0.78 s, which is about 20\% lower than when computed using the simple pendulum model.  Now the theoretical time more closely matches the experimental measurements for adult humans, which was in the range of 0.6 to 0.7 s.
 
 One might be tempted to think that leg length is the only variable that affects the stepping time.  However, $\tau$ is just as dependent on the gravitational constant.  Eq.~\ref{eqn1-20} explains why astronauts move differently on the moon, where $g$ is about 1/6 of Earth’s value.  Because of the diminished $g$, each step takes about 2.5 (or $\sqrt{6}$) times as long as on Earth. The increased stepping time apparently became unbearably long for these astronauts, who immediately found that to get from point A to point B quickly, it was more efficient to hop than to walk.  This incident also underscores how our bodies have adapted to the gravitational environment in which we live.
+
+[^1]: The procedure is quite simple.  To verify for example that Eqn. {eq}`eq1-10` is a solution, first take the second derivative of the right hand side. Then show that with some algebraic manipulation that it equals $-(g/l)x$ as Eqn. {eq}`eq1-9` suggests.
