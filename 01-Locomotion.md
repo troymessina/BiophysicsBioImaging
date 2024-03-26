@@ -14,7 +14,7 @@ When walking at a leisurely pace, one may assume that the locomotion is executed
 
 ### The Simple Pendulum: A Case in Point
 
-While almost any object can act as a pendulum, those that possess complex physical forms are difficult to analyze.  For this reason, we will begin by examining the most straightforward case: the simple pendulum in a gravitational field.  The simple pendulum is aptly named, for it simply consists of a point mass suspended from a massless string.  The string is made massless to avoid having to calculate its rotational inertia, which, as you may recall, is a quantity that depends on the distribution of mass.  If we think of the leg as a simple pendulum, it is as if the entire mass of the leg is concentrated in the foot.  [Figure 1.1](#Fig1-1) below shows a simple pendulum of length $\ell$ and mass $m$.  As the pendulum oscillates, the point mass traces an arc of the circle of radius $\ell$.
+While almost any object can act as a pendulum, those that possess complex physical forms are difficult to analyze.  For this reason, we will begin by examining the most straightforward case: the simple pendulum in a gravitational field.  The simple pendulum is aptly named, for it simply consists of a point mass suspended from a massless string.  The string is made massless to avoid having to calculate its rotational inertia, which, as you may recall, is a quantity that depends on the distribution of mass.  If we think of the leg as a simple pendulum, it is as if the entire mass of the leg is concentrated in the foot.  [Figure 1](#Fig1-1) below shows a simple pendulum of length $\ell$ and mass $m$.  As the pendulum oscillates, the point mass traces an arc of the circle of radius $\ell$.
 ```{figure} images/Topic1/Figure1-1.jpg
 :height: 300px
 :name: Fig1-1
@@ -24,7 +24,7 @@ The simple pendulum with length $\ell$ and mass $m$.
 ```
  
 We are now ready to derive an equation that describes the position of the pendulum as a function of time.  From the equation, we will then obtain another equation that computes the stepping time for an animal.  
-What are the forces acting on the mass?  The best way to visualize them is by drawing a force diagram ([Fig. 1.2](#Fig1-2)).  
+What are the forces acting on the mass?  The best way to visualize them is by drawing a force diagram ([Fig. 2](#Fig1-2)).  
 ```{figure} images/Topic1/Figure1-2.jpg
 :scale: 100 %
 :name: Fig1-2
@@ -35,11 +35,11 @@ Free-body diagram for mass $m$.
 	
 According to Newton’s 2nd Law, the sum of the forces along the $x$-axis and $y$-axis are equal to the mass, $m$, multiplied by the acceleration in the $x$-direction, $a_x$, and in the $y$-direction, $a_y$, respectively.
 ```{math}
-:label: sumF
+:label: eq1-1
 \sum F_x = ma_x\\
 \sum F_y = ma_y
 ```
-To simplify the problem, we will assume that the movement of the foot along the $y$-direction is always negligible compared to the one along the $x$-direction. This is approximately true when taking moderate steps, for which the angle $\theta$ rarely exceeds 20$^{\circ}$. If so, we may also ignore the acceleration of the foot along the $y$ when we invoke Newton’s second law. When taking this into account, and breaking down the forces into $x$ and $y$ components as shown in [Fig. 1.3](#Fig1-3), we obtain 
+To simplify the problem, we will assume that the movement of the foot along the $y$-direction is always negligible compared to the one along the $x$-direction. This is approximately true when taking moderate steps, for which the angle $\theta$ rarely exceeds 20$^{\circ}$. If so, we may also ignore the acceleration of the foot along the $y$ when we invoke Newton’s second law. When taking this into account, and breaking down the forces into $x$ and $y$ components as shown in [Fig. 3](#Fig1-3), we obtain 
 ```{figure} images/Topic1/Figure1-3.jpg
 :height: 300px
 :name: Fig1-3
@@ -49,64 +49,70 @@ Force diagram, with the tension, $T$, broken down into its $x$ and $y$ component
 ``` 
 
 ```{math}
-:label: Fx
+:label: eq1-2
 \sum F_x = T \sin\left(\theta\right) = ma_x
 ```
 ```{math}
-:label: Fy
+:label: eq1-3
 \sum F_y = -w + T \cos\left(\theta\right) = 0
 ```
 
-When Eqn. {eq}`Fy` is solved for the tension ($T = w/ \cos(\theta)$), and this expression is substituted for $T$ in Eqn. {eq}`Fx`, we derive the following relation between $a_x$ and the weight 
+When Eqn. {eq}`eq1-3` is solved for the tension ($T = w/ \cos(\theta)$), and this expression is substituted for $T$ in Eqn. {eq}`Fx`, we derive the following relation between $a_x$ and the weight 
 
 ```{math}
-:label: ma_x
+:label: eq1-4
 ma_x = -\frac{w}{\cos\left(\theta\right)} \sin\left(\theta\right) = -w \tan\left(\theta\right)
 ```
 
 Since $w=mg$, we can simplify:
 ```{math}
-:label: ma_x2
+:label: eq1-5
 ma_x = -mg \tan\left(\theta\right)\\
 a_x = -g \tan\left(\theta\right)             
 ```
-Note that the acceleration is not constant, that is, it varies with the angle $\theta$, which is dependent on the position $x$ of the foot along the horizontal. Hence we cannot use simple approaches like the kinematic equations to solve for the time it takes to complete a step.  We will approach the solution to Eqn. {eq}`ma_x2` differently than what is done in an introductory physics course. 
+Note that the acceleration is not constant, that is, it varies with the angle $\theta$, which is dependent on the position $x$ of the foot along the horizontal. Hence we cannot use simple approaches like the kinematic equations to solve for the time it takes to complete a step.  We will approach the solution to Eqn. {eq}`eq1-5` differently than what is done in an introductory physics course. 
 Recall that the tangent of an angle can be defined as the ratio of the opposite and adjacent sides of a right triangle.
-$$\tan\left(\theta\right)  = \frac{{\rm opposite}}{{\rm adjacent}}$$
-In our case, as shown below in [Fig. 1.4](#Fig1-4), the adjacent of angle $\theta$ is simply the length of the leg $\ell$. 
+```{math}
+:label: eq1-6
+\tan\left(\theta\right)  = \frac{{\rm opposite}}{{\rm adjacent}}
+```
+In our case, as shown below in [Fig. 4](#Fig1-4), the adjacent of angle $\theta$ is simply the length of the leg $\ell$. 
 ```{figure} images/Topic1/Figure1-4.jpg
 :height: 300px
 :name: Fig1-4
 :alt: Adjacent and opposite sides of the triangle defined by $\theta$.
 	Adjacent and opposite sides of the triangle defined by $\theta$.
 ```
-The opposite here corresponds to the displacement of the foot, or $x$, along the x-direction. Accordingly, $\tan\left(\theta\right) \approx x/l$, and Eqn. {eq}`ma_x2` becomes:
+The opposite here corresponds to the displacement of the foot, or $x$, along the x-direction. Accordingly, $\tan\left(\theta\right) \approx x/l$, and Eqn. {eq}`eq1-5` becomes:
 ```{math}
-:label: a_xapprox
+:label: eq1-7
 a_x = -\frac{g}{\ell}x
 ```             
 But $a_x$ also varies with position and time.  Recall that velocity is the first derivative of position with respect to time and that acceleration is the first derivative of velocity with respect to time.  It follows that acceleration is the second derivative of position with respect to time, written in differential form as:
-\begin{eqnarray}\label{eqn1-6}
+```{math}
+:label: eq1-8
 a_x = \frac{d^2x}{dt^2}
-\end{eqnarray}      
-Substituting Eqn. {eq}`ma_x2` into Eq.~\ref{eqn1-5}, we arrive at the equation we must solve for $x$:
-\begin{eqnarray}\label{eqn1-7}
+```     
+Substituting Eqn. {eq}`eq1-7` into Eqn. {eq}`eq1-8`, we arrive at the equation we must solve for $x$:
+```{math}
+:label: eq1-9
 \frac{d^2x}{dt^2} = -\frac{g}{\ell}x
-\end{eqnarray} 
-Eqn.{eq}`eqn1-7` is of a type known as a ``differential equation'' because it contains a derivative of what you solving for. Since solving differential equations is beyond the scope of the course, the steps are left to the more ambitious student.  However, as you will verify in one of your homework problems, the following solutions satisfy Eq.~\ref{eqn1-7}.
-\begin{eqnarray}\label{eqn1-8}
-x = A \sin\left(\sqrt{\frac{g}{\ell}}~t\right)
-\end{eqnarray}
-or
-\begin{eqnarray}\label{eqn1-9}
-x = A \cos\left(\sqrt{\frac{g}{\ell}}~t\right),
-\end{eqnarray}
-where $A$ is a constant. \footnote[1]{The procedure is quite simple.  To verify for example that Eq.~\ref{eqn1-8} is a solution, first take the second derivative of the right hand side. Then show that with some algebraic manipulation that it equals $-(g/l)x$ as Eq.~\ref{eqn1-7} suggests.}
+``` 
+Eqn.{eq}`eqn1-9` is of a type known as a ``differential equation'' because it contains a derivative of what you solving for. Since solving differential equations is beyond the scope of the course, the steps are left to the more ambitious student.  However, as you will verify in one of your homework problems, the following solutions satisfy Eqn.{eq}`eqn1-9`.
+```{math}
+:label: eq1-10
+x = A \sin\left(\sqrt{\frac{g}{\ell}}~t\right)\\
+x = A \cos\left(\sqrt{\frac{g}{\ell}}~t\right)
+```
+where $A$ is a constant. [^1]:{The procedure is quite simple.  To verify for example that Eqn. {eq}`eq1-10` is a solution, first take the second derivative of the right hand side. Then show that with some algebraic manipulation that it equals $-(g/l)x$ as Eqn. {eq}`eq1-9` suggests.}
 
 The constant, $A$, in each case refers to the amplitude of the step, and we can visualize the motion in terms of its oscillatory behavior, shown in Figure\ref{Fig1-5}.
-\begin{figure}[htb]
-	\centering
-	\includegraphics[width=2.25in]{./figures/Topic1/Figure1-5a.png}
+```{figure} /images/Topic1/Figure1-5a.png
+:name: Fig1-5a
+:alt: As the back leg moves forward it undergoes motion corresponding to half of a full pendulum oscillation.
+
+As the back leg moves forward it undergoes motion corresponding to half of a full pendulum oscillation.
+```
 	\includegraphics[width=3.25in]{./figures/Topic1/Figure1-5b.png}
 	\caption{As the back leg moves forward it undergoes motion corresponding to half of a full pendulum oscillation.}
 	\label{Fig1-5}
