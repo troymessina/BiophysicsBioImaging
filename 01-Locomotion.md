@@ -146,36 +146,43 @@ Contrasted with the simple pendulum where the mass is concentrated at a point, t
 Free body diagram of the physical pendulum.
 ```
   
-A significant difference between the simple pendulum and the physical pendulum models is that the first looks at the action of forces, whereas the second focuses on torques. Recall that a torque is the turning force that causes objects to rotate about a pivot point. The strength of the torque is dependent not only on the applied force but also on distance from where it is applied to the pivot point. In this case, gravity is the only force that causes rotational motion, and the magnitude of the torque associated with this force is the force $F$ times the distance from where it is applied to the pivot point ($R$). In addition, the product must be multiplied by the sine of the angle between the directions of the force and the line of action which connects the pivot point to the center of mass. The resulting expression is $w R \sin\theta$, or $m g R \sin\theta$, where $R$ is the distance from the pivot point to the center of mass.  Note that in Fig.~\ref{Fig1-6} the direction of the torque (clockwise) opposes the angular displacement $\theta$ (counter-clokwise). This is always the case, even if the leg is to the left of the centerline; in that case the direction of the angular displacement is clockwise whereas that of the torque is counter-clockwise. 
+A significant difference between the simple pendulum and the physical pendulum models is that the first looks at the action of forces, whereas the second focuses on torques. Recall that a torque is the turning force that causes objects to rotate about a pivot point. The strength of the torque is dependent not only on the applied force but also on distance from where it is applied to the pivot point. In this case, gravity is the only force that causes rotational motion, and the magnitude of the torque associated with this force is the force $F$ times the distance from where it is applied to the pivot point ($R$). In addition, the product must be multiplied by the sine of the angle between the directions of the force and the line of action which connects the pivot point to the center of mass. The resulting expression is $w R \sin\theta$, or $m g R \sin\theta$, where $R$ is the distance from the pivot point to the center of mass.  Note that in [Fig. 6](#Fig1-6) the direction of the torque (clockwise) opposes the angular displacement $\theta$ (counter-clokwise). This is always the case, even if the leg is to the left of the centerline; in that case the direction of the angular displacement is clockwise whereas that of the torque is counter-clockwise. 
 The sum of the torques acting on the mass obeys the equation
 
-$$\begin{eqnarray}\label{eqn1-12}
+```{math}
+:label: eq1-13
 \sum \tau = I\alpha
-\end{eqnarray}$$
+```
 
-where $\tau$ is now defining torque rather than a characteristice time, $I$ is the moment of inertia and $\alpha$ is the angular acceleration.  Recall that the moment of inertia takes into account the distribution of mass of the leg.  In fact, if you divide the leg into small masses, and identify each mass $m$ with an index $n$, the moment of inertia is given by the formula  $$I=\sum_n m_n R_n^2.$$  
-Angular acceleration, $\alpha$ is the second derivative of $\theta$ with respect to time.  Thus, Eq.~\ref{eqn1-12} can be rewritten as
+where $\tau$ is now defining torque rather than a characteristice time, $I$ is the moment of inertia and $\alpha$ is the angular acceleration.  Recall that the moment of inertia takes into account the distribution of mass of the leg.  In fact, if you divide the leg into small masses, and identify each mass $m$ with an index $n$, the moment of inertia is given by the formula 
+```{math}
+:label: eq1-14
+I=\sum_n m_n R_n^2
+```
+Angular acceleration, $\alpha$ is the second derivative of $\theta$ with respect to time.  Thus, Eqn.{eq}`eq1-13` can be rewritten as
 
-$$\begin{eqnarray}\label{eqn1-13}
+```{math}
+:label: eq1-15
 -R m g \sin\left(\theta\right)=I\frac{d^2\theta}{dt^2}
-\end{eqnarray}$$
+```
 
 Rearranging, we get:
-$$\begin{eqnarray}\label{eqn1-14}
+```{math}
+:label: eq1-16
 \frac{d^2\theta}{dt^2} = -\frac{Rmg}{I}\sin\theta
-\end{eqnarray}$$
-As we stated earlier, an animal’s leg rarely subtends an angle greater than 20$^{\circ}$ relative to the normal while walking.  This means that that we can take advantage of the small angle approximation, which states that for angles less than 20$^{\circ}$, $\sin\theta \approx \theta$.  (Recall that the small angle approximation only holds when the angle is expressed in radians.)  Eq.~\ref{eqn1-14} simplifies to
-$$\begin{eqnarray}\label{eqn1-15}
+```
+As we stated earlier, an animal’s leg rarely subtends an angle greater than 20$^{\circ}$ relative to the normal while walking.  This means that that we can take advantage of the small angle approximation, which states that for angles less than 20$^{\circ}$, $\sin\theta \approx \theta$.  (Recall that the small angle approximation only holds when the angle is expressed in radians.)  Eqn.{eq}`eq1-16` simplifies to
+```{math}
+:label: eq1-17
 \frac{d^2\theta}{dt^2} = -\frac{RMg}{I}\theta
-\end{eqnarray}$$
-Compare Eq.~\ref{eqn1-7} to Eq.~\ref{eqn1-15}.  Instead of $x$, we now have $\theta$, and instead of the constant $g/\ell$, we now have $Rmg/I$.  Observing these substitutions makes solving Eq.~\ref{eqn1-15} easy, because we have already solved Eq.~\ref{eqn1-7}. The solutions are of the form: 
-$$\begin{eqnarray}\label{eqn1-16}
-\theta(t) = A \sin\left(\sqrt{\frac{Rmg}{I}}t\right)
-\end{eqnarray}$$
-or
-$$\begin{eqnarray}\label{eqn1-17}
+```
+Compare Eqn. {eq}`eq1-9` to Eqn. {eq}`eq1-17`.  Instead of $x$, we now have $\theta$, and instead of the constant $g/\ell$, we now have $Rmg/I$.  Observing these substitutions makes solving Eqn. {eq}`eq1-17` easy, because we have already solved Eqn. {eq}`eq1-9`. The solutions are of the form: 
+```{math}
+:label: eq1-18
+\theta(t) = A \sin\left(\sqrt{\frac{Rmg}{I}}t\right)\\
+\text{or}
 \theta(t) = A \cos\left(\sqrt{\frac{Rmg}{I}}t\right)
-\end{eqnarray}$$
+```
 Also analogous to the previous case, a step corresponds to the time when the period is 
 $$\begin{eqnarray}\label{eqn1-18}
 \pi = \sqrt{\frac{Rmg}{I}}t
