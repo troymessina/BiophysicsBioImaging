@@ -8,16 +8,11 @@ title: Topic 2 - Fluid Mechanics of the Circulatory System
 
 Single-cell organisms live in direct contact with the environment from where they derive nutrients and into where they dispose of their waste. For living systems containing multiple cells, there is the challenge of how to get nutrients past multiple layers of cells efficiently and how to avoid the build-up in waste products within deep cellular layers. The answer to these challenges is the development of an intricate plumbing network, containing pumps and distribution lines that are collectively called the circulatory system.  
 
-\begin{wrapfigure}{r}{0.5\textwidth} 
-\vspace{-20pt}
-  \begin{center}
-    \includegraphics[width=0.4\textwidth]{./figures/Topic2/Earthclip.jpg}
-    %\caption{}
-%    \label{fig:databaseUserTable}
-  \end{center}
-  \vspace{-20pt}
-  \vspace{1pt}
-\end{wrapfigure} 
+```{image} images/Topic2/Earthclip.jpg
+:scale: 40%
+:alt: Earth wrapped with blood vessels
+```
+
 To give you a sense for the complexity of the human circulatory system consider the following facts. Lined up end-to-end, your blood vessels would wrap more than twice around the Earth, and your circulatory system pumps over five liters of blood through the body every minute.  Meandering through vast networks of capillaries, blood delivers oxygen and nutrients to the body’s cells at a leisurely 0.026cm/s.  In contrast, it rushes through the aorta at 30cm/s, over a thousand times faster.
  
 The pressure in the circulatory system also undergoes changes as it traverses blood vessels of differing diameters and as it defies or succumbs to gravity.  Thus as we shall see, pressure is usually higher in the arteries than in the veins, but it also varies with posture. This is why accident victims are directed to keep bleeding wounds raised above heart level; this action lowers the blood pressure in the wound, and consequently lessens the bleeding.  
