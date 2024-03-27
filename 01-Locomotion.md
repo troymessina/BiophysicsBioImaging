@@ -102,6 +102,7 @@ Eqn.{eq}`eq1-9` is of a type known as a ``differential equation'' because it con
 ```{math}
 :label: eq1-10
 x = A \sin\left(\sqrt{\frac{g}{\ell}}~t\right)\\
+\text{or}\\
 x = A \cos\left(\sqrt{\frac{g}{\ell}}~t\right)
 ```
 where $A$ is a constant. [^1]
@@ -180,26 +181,32 @@ Compare Eqn. {eq}`eq1-9` to Eqn. {eq}`eq1-17`.  Instead of $x$, we now have $\th
 ```{math}
 :label: eq1-18
 \theta(t) = A \sin\left(\sqrt{\frac{Rmg}{I}}t\right)\\
-\text{or}
+\text{or}\\
 \theta(t) = A \cos\left(\sqrt{\frac{Rmg}{I}}t\right)
 ```
 Also analogous to the previous case, a step corresponds to the time when the period is 
-$$\begin{eqnarray}\label{eqn1-18}
+```{math}
+:label: eq1-19
 \pi = \sqrt{\frac{Rmg}{I}}t
-\end{eqnarray}$$
+```
 and the stepping time is
-$$\begin{eqnarray}\label{eqn1-19}
+```{math}
+:label: eq1-20
 \tau = \pi\sqrt{\frac{I}{Rmg}}
-\end{eqnarray}$$
+```
 As stated above, the moment of inertia $I$ of an object pivoting about an axis is found by first breaking down the object into small pieces each with the same mass $m$. After identifying each mass $m$ with an index $n$, the moment of inertia is given by the formula $I=\sum_n m_nR_n^2$.   Most physics textbooks list the result of this calculation for the moments of inertia of various bodies with simple geometries. To take advantage of these existing formulas for $I$, we can assume a simplified shape for the leg by thinking of it as a slender rod with a pivot through one end (the hip).  Accordingly, 
-$$I=\frac{1}{3}m\ell^2$$
-$$R = \frac{1}{2}\ell$$
-where $\ell$ is the length of the leg and $m$ is the total mass of the leg. If we substitute these equations into Eq.~\ref{eqn1-19}, we get an equation that calculates the stepping time, accounting for the continuous mass distribution of the leg.
-$$\begin{eqnarray}\label{eqn1-20}
+```{math}
+:label: eq1-21
+I=\frac{1}{3}m\ell^2\\
+R = \frac{1}{2}\ell
+```
+where $\ell$ is the length of the leg and $m$ is the total mass of the leg. If we substitute these equations into Eqn. {eq}`eq1-20`, we get an equation that calculates the stepping time, accounting for the continuous mass distribution of the leg.
+```{math}
+:label: eq1-22}
 \tau = \pi\sqrt{\frac{2\ell}{3g}}
-\end{eqnarray}$$
-This equation is almost identical to Eq.~\ref{eqn1-11} for the simple pendulum case, with the exception of a new constant, $\sqrt{2/3}$, which is approximately 0.8.  The new factor makes the theoretical stepping time $\tau$ = 0.78 s, which is about 20\% lower than when computed using the simple pendulum model.  Now the theoretical time more closely matches the experimental measurements for adult humans, which was in the range of 0.6 to 0.7 s.
+```
+This equation is almost identical to Eqn.{eq}`eq1-12` for the simple pendulum case, with the exception of a new constant, $\sqrt{2/3}$, which is approximately 0.8.  The new factor makes the theoretical stepping time $\tau$ = 0.78 s, which is about 20\% lower than when computed using the simple pendulum model.  Now, the theoretical time more closely matches the experimental measurements for adult humans, which was in the range of 0.6 to 0.7 s.
 
-One might be tempted to think that leg length is the only variable that affects the stepping time.  However, $\tau$ is just as dependent on the gravitational constant.  Eq.~\ref{eqn1-20} explains why astronauts move differently on the moon, where $g$ is about 1/6 of Earth’s value.  Because of the diminished $g$, each step takes about 2.5 (or $\sqrt{6}$) times as long as on Earth. The increased stepping time apparently became unbearably long for these astronauts, who immediately found that to get from point A to point B quickly, it was more efficient to hop than to walk.  This incident also underscores how our bodies have adapted to the gravitational environment in which we live.
+One might be tempted to think that leg length is the only variable that affects the stepping time.  However, $\tau$ is just as dependent on the gravitational constant.  Eqn. {eq}`1-22` explains why astronauts move differently on the moon, where $g$ is about 1/6 of Earth’s value.  Because of the diminished $g$, each step takes about 2.5 (or $\sqrt{6}$) times as long as on Earth. The increased stepping time apparently became unbearably long for these astronauts, who immediately found that to get from point A to point B quickly, it was more efficient to hop than to walk.  This incident also underscores how our bodies have adapted to the gravitational environment in which we live.
 
 [^1]: The procedure is quite simple.  To verify for example that Eqn. {eq}`eq1-10` is a solution, first take the second derivative of the right hand side. Then show that with some algebraic manipulation that it equals $-(g/l)x$ as Eqn. {eq}`eq1-9` suggests.
