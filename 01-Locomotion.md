@@ -202,7 +202,7 @@ R = \frac{1}{2}\ell
 ```
 where $\ell$ is the length of the leg and $m$ is the total mass of the leg. If we substitute these equations into Eqn. {eq}`eq1-20`, we get an equation that calculates the stepping time, accounting for the continuous mass distribution of the leg.
 ```{math}
-:label: eq1-22}
+:label: eq1-22
 \tau = \pi\sqrt{\frac{2\ell}{3g}}
 ```
 This equation is almost identical to Eqn.{eq}`eq1-12` for the simple pendulum case, with the exception of a new constant, $\sqrt{2/3}$, which is approximately 0.8.  The new factor makes the theoretical stepping time $\tau$ = 0.78 s, which is about 20\% lower than when computed using the simple pendulum model.  Now, the theoretical time more closely matches the experimental measurements for adult humans, which was in the range of 0.6 to 0.7 s.
