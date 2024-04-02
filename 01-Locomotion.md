@@ -228,6 +228,6 @@ One might be tempted to think that leg length is the only variable that affects 
 ```{math}
 \sin\theta \approx\theta
 ```
-	Calculate the percent error for angles $\theta$ from $0^{\circ}$ to $40^{\circ}$ (in steps of $1^{\circ}$) to demonstrate the validity of the above approximation. Note: the approximation for $\theta$ works only when the angle is expressed in radians. You should also show that this is true.
+Calculate the percent error for angles $\theta$ from $0^{\circ}$ to $40^{\circ}$ (in steps of $1^{\circ}$) to demonstrate the validity of the above approximation. Note: the approximation for $\theta$ works only when the angle is expressed in radians. You should also show that this is true.
 
 5. Imagine that in the distant future some humans will have colonized planets with high gravity environments for millions of years and will have evolved to adapt to them. Speculate on whether their legs will be shorter or longer then. (Note: there is no single correct answer to this question but you must provide a plausible argument to support it). 
