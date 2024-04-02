@@ -210,3 +210,21 @@ This equation is almost identical to Eqn.{eq}`eq1-12` for the simple pendulum ca
 One might be tempted to think that leg length is the only variable that affects the stepping time.  However, $\tau$ is just as dependent on the gravitational constant.  Eqn. {eq}`eq1-22` explains why astronauts move differently on the moon, where $g$ is about 1/6 of Earth’s value.  Because of the diminished $g$, each step takes about 2.5 (or $\sqrt{6}$) times as long as on Earth. The increased stepping time apparently became unbearably long for these astronauts, who immediately found that to get from point A to point B quickly, it was more efficient to hop than to walk.  This incident also underscores how our bodies have adapted to the gravitational environment in which we live.
 
 [^1]: The procedure is quite simple.  To verify for example that Eqn. {eq}`eq1-10` is a solution, first take the second derivative of the right hand side. Then show that with some algebraic manipulation that it equals $-(g/l)x$ as Eqn. {eq}`eq1-9` suggests.
+
+## Problems
+1. Verify that the solutions for $x$ given by Eqn. {eq}`eq1-10` satisfy equation {eq}`eq1-9`. 
+
+2. T. Rex legs have been measured to be 2.5 m long.
+	a) Estimate the stepping time for this animal.
+	b) Assuming that the angular displacement of the leg is ±100, estimate the distance covered during a single step. 
+	c) from (a) and (b) estimate the walking speed of this animal in miles per hour. Could you outrun a T. Rex under these conditions?
+
+3. Fill in missing algebraic steps to get from Eqn. {eq}`1-18` to {eq}`1-22` in the text.
+ 
+4. Much of the theoretical work done in class was based on the small angle approximation, which assumed that for angles smaller than 20 degrees the following applied:
+```{math}
+\sin\theta \approx\theta
+```
+ Calculate the percent error for angles $\theta$ from $0^{circ}$ to $40^{circ}$ (in steps of $1^{circ})$) to demonstrate the validity of the above approximation. Note: the approximation for $\theta$ works only when the angle is expressed in radians. You should also show that this is true.
+
+5. Imagine that in the distant future some humans will have colonized planets with high gravity environments for millions of years and will have evolved to adapt to them. Speculate on whether their legs will be shorter or longer then. (Note: there is no single correct answer to this question but you must provide a plausible argument to support it). 
