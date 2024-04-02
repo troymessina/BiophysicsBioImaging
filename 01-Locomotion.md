@@ -214,9 +214,9 @@ One might be tempted to think that leg length is the only variable that affects 
 ## Problems
 1. Verify that the solutions for $x$ given by Eqn. {eq}`eq1-10` satisfy equation {eq}`eq1-9`. 
 
-2. T. Rex legs have been measured to be 2.5 m long.
-	a. Estimate the stepping time for this animal.
-	b. Assuming that the angular displacement of the leg is ±100, estimate the distance covered during a single step. 
+2. T. Rex legs have been measured to be 2.5 m long.\\
+	a. Estimate the stepping time for this animal.\\
+	b. Assuming that the angular displacement of the leg is ±100, estimate the distance covered during a single step.\\ 
 	c. from (a) and (b) estimate the walking speed of this animal in miles per hour. Could you outrun a T. Rex under these conditions?
 
 3. Fill in missing algebraic steps to get from Eqn. {eq}`eq1-18` to {eq}`eq1-22` in the text.
@@ -225,6 +225,6 @@ One might be tempted to think that leg length is the only variable that affects 
 ```{math}
 \sin\theta \approx\theta
 ```
- Calculate the percent error for angles $\theta$ from $0^{\circ}$ to $40^{\circ}$ (in steps of $1^{\circ})$) to demonstrate the validity of the above approximation. Note: the approximation for $\theta$ works only when the angle is expressed in radians. You should also show that this is true.
+ Calculate the percent error for angles $\theta$ from $0^{\circ}$ to $40^{\circ}$ (in steps of $1^{\circ}$) to demonstrate the validity of the above approximation. Note: the approximation for $\theta$ works only when the angle is expressed in radians. You should also show that this is true.
 
 5. Imagine that in the distant future some humans will have colonized planets with high gravity environments for millions of years and will have evolved to adapt to them. Speculate on whether their legs will be shorter or longer then. (Note: there is no single correct answer to this question but you must provide a plausible argument to support it). 
