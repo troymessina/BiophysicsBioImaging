@@ -215,11 +215,11 @@ One might be tempted to think that leg length is the only variable that affects 
 1. Verify that the solutions for $x$ given by Eqn. {eq}`eq1-10` satisfy equation {eq}`eq1-9`. 
 
 2. T. Rex legs have been measured to be 2.5 m long.
-	a) Estimate the stepping time for this animal.
-	b) Assuming that the angular displacement of the leg is ±100, estimate the distance covered during a single step. 
-	c) from (a) and (b) estimate the walking speed of this animal in miles per hour. Could you outrun a T. Rex under these conditions?
+	a. Estimate the stepping time for this animal.
+	b. Assuming that the angular displacement of the leg is ±100, estimate the distance covered during a single step. 
+	c. from (a) and (b) estimate the walking speed of this animal in miles per hour. Could you outrun a T. Rex under these conditions?
 
-3. Fill in missing algebraic steps to get from Eqn. {eq}`1-18` to {eq}`1-22` in the text.
+3. Fill in missing algebraic steps to get from Eqn. {eq}`eq1-18` to {eq}`eq1-22` in the text.
  
 4. Much of the theoretical work done in class was based on the small angle approximation, which assumed that for angles smaller than 20 degrees the following applied:
 ```{math}
