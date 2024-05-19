@@ -15,6 +15,7 @@ In the past few decades, basic biological research and diagnostic medicine have 
 
 This chapter will introduce the basic concepts behind some of the most widely-used types of bioimaging: microscopy, ultrasound imaging, and various types of tomography.
 
+
 ## Microscopy
 
 Microscopes are used to magnify small objects so that they may easily be seen by the eye.  A number of types of microscopes exist.  Light microscopes, invented in the Renaissance, are still the most commonly used form of imaging in the laboratory today.  Electron microscopes, developed in the 1950s, have made possible much greater resolution, i.e.the smallest detail that can be distinguished.  Newer types, like confocal scanning laser microscopes and scanning probe microscopes, allow imaging of complex specimens and even individual molecules.  The quality of any microscope depends on both its resolution and its overall magnification, which is how big the object appears relative to its actual size.  Light microscopes, which can typically achieve resolutions of 0.2 $\mu$m and magnifications around 1,000X. The resolution is limited by the diffraction of light through the objective much in the same way as the visual acuity in the eye is limited by the size of the pupil ([Topic 5](#OpticsVision), Eqn. {eq}`eqn5-7`):
@@ -339,6 +340,6 @@ The use of non-invasive imaging tools, such as CAT, PET, MRI, and optical scanne
 	\label{Fig10-20}
 \end{figure}
 
-## A Python Example
 
-```{include} VPython.ipynb
+
+

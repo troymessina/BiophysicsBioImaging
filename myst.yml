@@ -9,11 +9,15 @@ project:
   numbering:
     headings: true
   github: https://github.com/troymessina/BiophysicsBioImaging
+  jupyter:
+    lite: true
 site:
   template: book-theme
   #title: Biophysics and Bioimaging
-  #options:
-  #  logo: images/cover.PNG
+  options:
+    logo: ./images/primary_rgb.png
+    logo_dark: ./images/primary_white.png
+    logo_text: Biophysics and Bioimaging
   nav: []
   #actions:
   #  - title: Learn More

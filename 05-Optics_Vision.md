@@ -7,7 +7,7 @@ numbering:
 ---
 
 ![](./images/Topic5/Topic5.jpg)
-
+(OpticsVision)=
 ## Introduction
 
 The eye is able to detect light over a range of brightness of ten billion to one. It can bring into focus both starlight from millions of light-years away and light reflected from this page, about 20 cm away.  The shape and optical properties of the eye allow light entering the iris to form an image on the back surface of the eye called the retina.  Two types of photoreceptive cells on the retina, the rods and the cones, are responsible for interpreting brightness and color.  
@@ -306,7 +306,7 @@ Refractive errors, including astigmatism, can be corrected in several ways. A co
 The ray diagram of a near-sighted person when they try to focus on distant objects.
 ```
  
- 4. Calculate the diffraction-limited spot size on the retina for a normal eye focusing on a very distant object, assuming a pupillary aperture of 2.5 mm and a wavelength of light equal to 650 nm.
+4. Calculate the diffraction-limited spot size on the retina for a normal eye focusing on a very distant object, assuming a pupillary aperture of 2.5 mm and a wavelength of light equal to 650 nm.
 
 5. You are visiting your grandmother. She would like to read the newspaper. However, her near vision has declined with age. To see the news print clearly, she needs the paper to be 40 cm from her eyes compared to the “normal” near point of 25 cm. 
 	* a. What correction eyeglasses does she need? Ignore the small distance between the eyeglasses and her eyes. Also, assume the cornea and lens act as a single optical lens.
