@@ -1,5 +1,9 @@
 ---
 title: Topic 1 - Animal Locomotion
+numbering:
+  headings:
+  heading_1:
+    start: 2
 ---
 
 ![](./images/Topic1/Topic1.jpg)
@@ -14,7 +18,7 @@ When walking at a leisurely pace, one may assume that the locomotion is executed
 
 ### The Simple Pendulum: A Case in Point
 
-While almost any object can act as a pendulum, those that possess complex physical forms are difficult to analyze.  For this reason, we will begin by examining the most straightforward case: the simple pendulum in a gravitational field.  The simple pendulum is aptly named, for it simply consists of a point mass suspended from a massless string.  The string is made massless to avoid having to calculate its rotational inertia, which, as you may recall, is a quantity that depends on the distribution of mass.  If we think of the leg as a simple pendulum, it is as if the entire mass of the leg is concentrated in the foot.  [Figure 1](#Fig1-1) below shows a simple pendulum of length $\ell$ and mass $m$.  As the pendulum oscillates, the point mass traces an arc of the circle of radius $\ell$.
+While almost any object can act as a pendulum, those that possess complex physical forms are difficult to analyze.  For this reason, we will begin by examining the most straightforward case: the simple pendulum in a gravitational field.  The simple pendulum is aptly named, for it simply consists of a point mass suspended from a massless string.  The string is made massless to avoid having to calculate its rotational inertia, which, as you may recall, is a quantity that depends on the distribution of mass.  If we think of the leg as a simple pendulum, it is as if the entire mass of the leg is concentrated in the foot.  [](#Fig1-1) below shows a simple pendulum of length $\ell$ and mass $m$.  As the pendulum oscillates, the point mass traces an arc of the circle of radius $\ell$.
 ```{figure} images/Topic1/Figure1-1.jpg
 :height: 300px
 :name: Fig1-1
@@ -24,7 +28,7 @@ The simple pendulum with length $\ell$ and mass $m$.
 ```
  
 We are now ready to derive an equation that describes the position of the pendulum as a function of time.  From the equation, we will then obtain another equation that computes the stepping time for an animal.  
-What are the forces acting on the mass?  The best way to visualize them is by drawing a force diagram ([Fig. 2](#Fig1-2)).  
+What are the forces acting on the mass?  The best way to visualize them is by drawing a force diagram ([](#Fig1-2)).  
 ```{figure} images/Topic1/Figure1-2.jpg
 :scale: 100 %
 :name: Fig1-2
@@ -39,7 +43,7 @@ According to Newton’s 2nd Law, the sum of the forces along the $x$-axis and $y
 \sum F_x = ma_x\\
 \sum F_y = ma_y
 ```
-To simplify the problem, we will assume that the movement of the foot along the $y$-direction is always negligible compared to the one along the $x$-direction. This is approximately true when taking moderate steps, for which the angle $\theta$ rarely exceeds 20$^{\circ}$. If so, we may also ignore the acceleration of the foot along the $y$ when we invoke Newton’s second law. When taking this into account, and breaking down the forces into $x$ and $y$ components as shown in [Fig. 3](#Fig1-3), we obtain 
+To simplify the problem, we will assume that the movement of the foot along the $y$-direction is always negligible compared to the one along the $x$-direction. This is approximately true when taking moderate steps, for which the angle $\theta$ rarely exceeds 20$^{\circ}$. If so, we may also ignore the acceleration of the foot along the $y$ when we invoke Newton’s second law. When taking this into account, and breaking down the forces into $x$ and $y$ components as shown in [](#Fig1-3), we obtain 
 ```{figure} images/Topic1/Figure1-3.jpg
 :height: 300px
 :name: Fig1-3
@@ -57,7 +61,7 @@ Force diagram, with the tension, $T$, broken down into its $x$ and $y$ component
 \sum F_y = -w + T \cos\left(\theta\right) = 0
 ```
 
-When Eqn. {eq}`eq1-3` is solved for the tension ($T = w/ \cos(\theta)$), and this expression is substituted for $T$ in Eqn. {eq}`Fx`, we derive the following relation between $a_x$ and the weight 
+When Eqn. {eq}`eq1-3` is solved for the tension ($T = w/ \cos(\theta)$), and this expression is substituted for $T$ in Eqn. {eq}`eq1-2`, we derive the following relation between $a_x$ and the weight 
 
 ```{math}
 :label: eq1-4
@@ -76,7 +80,7 @@ Recall that the tangent of an angle can be defined as the ratio of the opposite 
 :label: eq1-6
 \tan\left(\theta\right)  = \frac{{\rm opposite}}{{\rm adjacent}}
 ```
-In our case, as shown below in [Fig. 4](#Fig1-4), the adjacent of angle $\theta$ is simply the length of the leg $\ell$. 
+In our case, as shown below in [](#Fig1-4), the adjacent of angle $\theta$ is simply the length of the leg $\ell$. 
 ```{figure} images/Topic1/Figure1-4.jpg
 :height: 300px
 :name: Fig1-4
@@ -107,7 +111,7 @@ x = A \cos\left(\sqrt{\frac{g}{\ell}}~t\right)
 ```
 where $A$ is a constant. [^1]
 
-The constant, $A$, in each case refers to the amplitude of the step, and we can visualize the motion in terms of its oscillatory behavior, shown in Figure\ref{Fig1-5}.
+The constant, $A$, in each case refers to the amplitude of the step, and we can visualize the motion in terms of its oscillatory behavior, shown in [](#Fig1-5).
 
 :::{figure}
 :name: Fig1-5
@@ -122,7 +126,7 @@ The constant, $A$, in each case refers to the amplitude of the step, and we can 
 As the back leg moves forward it undergoes motion corresponding to half of a full pendulum oscillation.
 :::
 
-From [Fig. 5](#Fig1-5) we see that a step corresponds to one half of the full sinusoidal oscillation. In terms of our solutions Eqn. {eq}`eq1-10`, this corresponds to a time such that 
+From [](#Fig1-5) we see that a step corresponds to one half of the full sinusoidal oscillation. In terms of our solutions Eqn. {eq}`eq1-10`, this corresponds to a time such that 
 ```{math}
 :label: eq1-11
 \pi = \sqrt{\frac{g}{\ell}}\tau
@@ -147,7 +151,7 @@ Contrasted with the simple pendulum where the mass is concentrated at a point, t
 Free body diagram of the physical pendulum.
 ```
   
-A significant difference between the simple pendulum and the physical pendulum models is that the first looks at the action of forces, whereas the second focuses on torques. Recall that a torque is the turning force that causes objects to rotate about a pivot point. The strength of the torque is dependent not only on the applied force but also on distance from where it is applied to the pivot point. In this case, gravity is the only force that causes rotational motion, and the magnitude of the torque associated with this force is the force $F$ times the distance from where it is applied to the pivot point ($R$). In addition, the product must be multiplied by the sine of the angle between the directions of the force and the line of action which connects the pivot point to the center of mass. The resulting expression is $w R \sin\theta$, or $m g R \sin\theta$, where $R$ is the distance from the pivot point to the center of mass.  Note that in [Fig. 6](#Fig1-6) the direction of the torque (clockwise) opposes the angular displacement $\theta$ (counter-clokwise). This is always the case, even if the leg is to the left of the centerline; in that case the direction of the angular displacement is clockwise whereas that of the torque is counter-clockwise. 
+A significant difference between the simple pendulum and the physical pendulum models is that the first looks at the action of forces, whereas the second focuses on torques. Recall that a torque is the turning force that causes objects to rotate about a pivot point. The strength of the torque is dependent not only on the applied force but also on distance from where it is applied to the pivot point. In this case, gravity is the only force that causes rotational motion, and the magnitude of the torque associated with this force is the force $F$ times the distance from where it is applied to the pivot point ($R$). In addition, the product must be multiplied by the sine of the angle between the directions of the force and the line of action which connects the pivot point to the center of mass. The resulting expression is $w R \sin\theta$, or $m g R \sin\theta$, where $R$ is the distance from the pivot point to the center of mass.  Note that in [](#Fig1-6) the direction of the torque (clockwise) opposes the angular displacement $\theta$ (counter-clokwise). This is always the case, even if the leg is to the left of the centerline; in that case the direction of the angular displacement is clockwise whereas that of the torque is counter-clockwise. 
 The sum of the torques acting on the mass obeys the equation
 
 ```{math}

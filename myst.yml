@@ -6,6 +6,8 @@ project:
   # description:
   keywords: [Biophysics]
   #authors: [Juan Rodriguez, Kathryn Thompson, Meridith Stewart, and Troy Messina]
+  numbering:
+    headings: true
   github: https://github.com/troymessina/BiophysicsBioImaging
 site:
   template: book-theme
