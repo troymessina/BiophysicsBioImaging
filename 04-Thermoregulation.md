@@ -8,6 +8,7 @@ numbering:
 
 ![](./images/Topic4/Topic4.jpg)
 
+(Thermoregulation)=
 ## Introduction
 
 Thermoregulation is the maintenance of body temperature within a range at which cells can function effectively.  Although various species have adapted differently, each is suited to an optimal temperature range.  Each animal has physical and behavioral adaptations that allow it to maintain a constant internal temperature, regardless of fluctuations in the ambient (external) temperature.  

@@ -255,7 +255,7 @@ Applying Netwon’s 2nd law of motion,
 	-kx &=& m \frac{d^2x}{dt^2}\nonumber\\
 	\frac{d^2x}{dt^2} &=& -\frac{k}{m}x 
 \end{eqnarray}
-This differential equation is very similar to the one obtained in the pendulum problem in Topic 1.  The solution to this equation is 
+This differential equation is very similar to the Eqn. {eq}`eq1-9` obtained in the pendulum problem in [Topic 1](#Locomotion).  The solution to this equation is 
  \begin{equation}\label{eqn3-18}
 	 x(t) = A \sin\left(\sqrt{\frac{k}{m}}t\right)
  \end{equation}

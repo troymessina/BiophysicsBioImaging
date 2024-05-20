@@ -6,12 +6,13 @@ title: Appendices
 # A More Complicated Physical Pendulum
 
 We can make a more complicated physical pendulum by assuming the mass of the leg is linearly decreasing from the hip to the foot, i.e., the leg is more massive at the hip and less massive at the foot. See [](#FigA-1)
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=\textwidth]{./figures/Appendix/LinearPhysPend.png}
-	\caption{A physical pendulum composed of a rod with linearly-dependent mass density.}
-	\label{FigA-1}
-\end{figure} 
+```{figure} ./images/Appendix/LinearPhysPend.png
+:align: center
+:label: FigA-1
+:width: 80%
+:alt: A physical pendulum composed of a rod with linearly-dependent mass density.
+A physical pendulum composed of a rod with linearly-dependent mass density.
+```
 To do this we must calculate the center of mass and the moment of inertia. Fortunately, these have very similar methods of calculation. The center of mass is calculated as
 \begin{equation}\label{Rcmeqn}
     R_{cm} = \frac{1}{M}\sum_i m_i x_i \rightarrow \frac{1}{M}\int_0^L dm\cdot x
@@ -33,30 +34,33 @@ where $A$ is a constant similar to $M/L$ above but different (units are kg/m$^2$
 \begin{equation}
    dm = A\left(L-x\right)dx
 \end{equation}
-Substituting this into Eqn.~\ref{Rcmeqn}, we get
-\begin{align}\label{Rcm}
+Substituting this into Eqn. {eq}`Rcmeqn`, we get
+```{math}
+:label: Rcm
     R_{cm} &= \frac{1}{M}\int_0^L A\left(L-x\right)x\cdot dx\nonumber\\
     R_{cm} &= \frac{A}{M}\left(\frac{Lx^2}{2}-\frac{x^3}{3}\right)\Bigg|_0^L\nonumber\\
     R_{cm} &= \frac{A}{M}\frac{L^3}{6}
-\end{align}
+```
 
 The moment of inertia is calculated similarly as
 \begin{equation}\label{momInert}
     I = \sum_i m_i x_i^2 \rightarrow \int_0^L dm\cdot x^2
 \end{equation}
 Using our linear mass density again, we get
-\begin{align}\label{momInert2}
+```{math}
+:label: momInert2
     I &= \int_0^L A\left(L-x\right)x^2 dx\nonumber\\
     I &= A\left(\frac{Lx^3}{3}-\frac{x^4}{4}\right)\Bigg|_0^L\nonumber\\
     I &= \frac{AL^4}{12}
-\end{align}
+```
 
 Now, we can use the step time that was derived in chapter 1 on Locomotion.
-\begin{align}\label{step}
+```{math}
+:label: step
     \tau &= \pi\sqrt{\frac{I}{RMg}}\nonumber\\
     \tau &= \pi\sqrt{\frac{\frac{AL^4}{12}}{\frac{AL^3}{6M}Mg}}\nonumber\\
     \tau &= \pi\sqrt{\frac{L}{2g}}
-\end{align}
+```
 We see that this step time is smaller by 25\% than the uniform cylinder because the fraction in the square root goes from $2/3$ to $1/2$.
 
 (appendix_fluid)=
@@ -76,14 +80,13 @@ $$dv = -\frac{\Delta P}{2\eta L} r dr$$
 Next, we can get the velocity at a particular r by looking at a the integral contribution over small increments, $dr$.
 $$\int dv = - \frac{\Delta P}{2\eta L} \int r dr$$
 This gives
-\begin{align}\label{eq-appA1}
+```{math}
+:label: eq-appA1
 v(r) &= -\frac{\Delta P}{2\eta L} \frac{r^2}{2} + C \nonumber\\
       &= -\frac{\Delta P}{4\eta L}r^2+C
-\end{align}
+```
 We know the velocity cannot be zero at $r=0$, the center of the vessel. The velocity at the outside edge where $r=R$, the velocity is zero, and the constant $C$ is
 $$C =\frac{\Delta P}{4\eta L} R^2,$$
-where $R$ is the radius of the vessel. This gives the equation {eqn2-7}.
+where $R$ is the radius of the vessel. This gives the equation {eq}`eqn2-7`.
 $$v(r) = \Delta P\frac{R^2-r^2}{4\eta L}$$
 From this we see that the velocity is zero at the edge of the vessel and is maximum at the center. It follows a parabolic velocity profile.
-
-%\chapter{more?}

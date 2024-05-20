@@ -8,7 +8,7 @@ numbering:
 
 ![](./images/Topic1/Topic1.jpg)
 
-
+(Locomotion)=
 ## Introduction
 
 Imagine a giraffe, a Chihuahua, and an ant walking side by side without undue urgency. For every stride that the giraffe makes, the Chihuahua takes many and the ant many more. Most people intuitively know that the shorter the length of one’s legs, the faster they tend to swing. In other words, an inverse relation exists between the size of a creature and how quickly it can move its legs. Why would such a scaling relation exist?  
@@ -82,10 +82,10 @@ Recall that the tangent of an angle can be defined as the ratio of the opposite 
 ```
 In our case, as shown below in [](#Fig1-4), the adjacent of angle $\theta$ is simply the length of the leg $\ell$. 
 ```{figure} images/Topic1/Figure1-4.jpg
-:height: 300px
-:name: Fig1-4
+:width: 300px
+:label: Fig1-4
 :alt: Adjacent and opposite sides of the triangle defined by $\theta$.
-	Adjacent and opposite sides of the triangle defined by $\theta$.
+Adjacent and opposite sides of the triangle defined by $\theta$.
 ```
 The opposite here corresponds to the displacement of the foot, or $x$, along the x-direction. Accordingly, $\tan\left(\theta\right) \approx x/l$, and Eqn. {eq}`eq1-5` becomes:
 ```{math}

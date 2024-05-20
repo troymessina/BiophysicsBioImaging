@@ -104,7 +104,7 @@ Finally, sophisticated computer graphics programs put together the data from ele
 
 ## Nuclear Magnetic Resonance (NMR) Spectroscopy
 
-Nuclear Magnetic Resonance (NMR) is the quantum mechanical phenomenon upon which two important technologies are based: NMR spectroscopy and Magnetic Resonance Imaging (MRI).  NMR spectroscopy, as we have already noted, provides information about protein structure.  Further, it aids the study of molecular dynamics, or how molecules or complexes of molecules behave in solution.  MRI uses essentially the same physical principles but for medical imaging purposes.  How NMR spectroscopy works is the focus of this section.  MRI will be discussed in Topic 10.
+Nuclear Magnetic Resonance (NMR) is the quantum mechanical phenomenon upon which two important technologies are based: NMR spectroscopy and Magnetic Resonance Imaging (MRI).  NMR spectroscopy, as we have already noted, provides information about protein structure.  Further, it aids the study of molecular dynamics, or how molecules or complexes of molecules behave in solution.  MRI uses essentially the same physical principles but for medical imaging purposes.  How NMR spectroscopy works is the focus of this section.  MRI will be discussed in [Topic 10](#Bioimaging).
 
 ### The basic concept
 

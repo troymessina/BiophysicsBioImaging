@@ -7,7 +7,7 @@ numbering:
 ---
 ![](./images/Topic8/Topic8.jpg)
 
-
+(StatMech)=
 ## Introduction
 
 One goal of systems biology is to integrate information about DNA, RNA, proteins, and all the interactions between them to build a predictive model of how a cell operates.  This involves tracking the interaction between trillions of atoms—how do we deal with it?  
@@ -137,10 +137,14 @@ The probability of finding an ion on a particular side of the membrane is direct
 V_{out}-V_{in}=-\frac{k_BT}{q}\ln\left(\frac{[C]_{out}}{[C]_{in}}\right)
 \end{equation} 
 In physiology textbooks, the Nernst Equation is often written in terms of log base-10. $$2.3\log_{10}\left(\frac{[C]_{out}}{[C]_{in}}\right) = \ln\left(\frac{[C]_{out}}{[C]_{in}}\right)$$ If, for example, the charge $q$ of the ion is $\pm e^-$ ($\pm1.6\times10^{-19}$ C), and $T$ be the core temperature of the body, 310 K, we obtain the equations 
-\begin{align}\label{eqn8-6}
-V_{out}-V_{in}  &=  - 61~{\rm mV}\log_{10}\left(\frac{[C]_{out}}{[C]_{in}}\right)   & {\rm positive~ion}\\
+```{math}
+:label: eqn8-6
+V_{out}-V_{in}  &=  - 61~{\rm mV}\log_{10}\left(\frac{[C]_{out}}{[C]_{in}}\right)   & {\rm positive~ion}                        
+```
+```{math}
+:label: eqn8-7
 V_{out}-V_{in}  &=  + 61~{\rm mV}\log_{10}\left(\frac{[C]_{out}}{[C]_{in}}\right)   & {\rm negative~ion}                         
-\end{align}
+```
 
 Consider the concentrations (moles/m$^3$ or millimolar) for various ions outside and inside mammalian nerve cells, shown in [](#table8-3).
 :::{table} Ion concentrations outside and inside nerve cells.
@@ -152,13 +156,13 @@ Consider the concentrations (moles/m$^3$ or millimolar) for various ions outside
 | Cl$^-$ |	110   |   4-30 |
 | Na$^+$ |	145   |   5-15 |
 :::
-Since potassium ions (K$^+$) are positive, we use Eq.~8.6:
+Since potassium ions (K$^+$) are positive, we use Eqn. {eq}`eqn8-6`
 $$V_{out}-V_{in}  =  -61~{\rm mV}\log_{10}\left(\frac{5}{140}\right)= +88~{\rm mV}.$$
-Since chloride ions (Cl$^-$) are negative, we use Eq.~8.7:
+Since chloride ions (Cl$^-$) are negative, we use Eqn. {eq}`eqn8-7`:
 $$V_{out}-V_{in}  =  +61~{\rm mV}\log_{10}\left(\frac{110}{4~{\rm to}~30}\right)= -34~{\rm to}~88~{\rm mV}.$$
-These results agree reasonably with experiments that find the potential inside a nerve cell to be about 70 mV lower than the potential on the outside.  From this we conclude that K$^+$ ions and Cl$^-$ ions are in equilibrium with those potentials.  Let us now do the same calculation for sodium (Na$^+$) ions.  Since sodium ions are positive, we use Eq.~8.6 again:  
+These results agree reasonably with experiments that find the potential inside a nerve cell to be about 70 mV lower than the potential on the outside.  From this we conclude that K$^+$ ions and Cl$^-$ ions are in equilibrium with those potentials.  Let us now do the same calculation for sodium (Na$^+$) ions.  Since sodium ions are positive, we use Eqn. {eq}`eqn8-6` again:  
 $$V_{out}-V_{in}  =  -61~{\rm mV}\log_{10}\left(\frac{145}{5~{\rm to}~15}\right)= -60~{\rm to}~-89~{\rm mV}.$$
-The negative result implies that sodium ions are not in equilibrium, so there must be some non-equilibrium process going on to drive the ions up the concentration gradient.  This effect is achieved by the well-established sodium-potassium pump model.  The pump requires energy in the form of ATP to move three sodium ions out of the cell for every two potassium ions that enter the cell.  The pump will be discussed again in Topic 11 on nerve conduction, when we shall see that maintenance of the voltage difference across the cell membrane is critical to neuron function.
+The negative result implies that sodium ions are not in equilibrium, so there must be some non-equilibrium process going on to drive the ions up the concentration gradient.  This effect is achieved by the well-established sodium-potassium pump model.  The pump requires energy in the form of ATP to move three sodium ions out of the cell for every two potassium ions that enter the cell.  The pump will be discussed again in [Topic 11](#NeuralConduction) on nerve conduction, when we shall see that maintenance of the voltage difference across the cell membrane is critical to neuron function.
 
 ### Protein Folding and Structure Prediction: Background
 
