@@ -13,7 +13,7 @@ numbering:
 Single-cell organisms live in direct contact with the environment from where they derive nutrients and into where they dispose of their waste. For living systems containing multiple cells, there is the challenge of how to get nutrients past multiple layers of cells efficiently and how to avoid the build-up in waste products within deep cellular layers. The answer to these challenges is the development of an intricate plumbing network, containing pumps and distribution lines that are collectively called the circulatory system.  
 
 ```{image} images/Topic2/Earthclip.jpg
-:scale: 40%
+:width: 40%
 :alt: Earth wrapped with blood vessels
 ```
 
@@ -196,7 +196,7 @@ As noted before, blood moves faster in the center of a blood vessel than near th
 \begin{equation}\label{eqn2-7}
 v(r)=\Delta P\frac{R^2-r^2}{4\eta L}
 \end{equation}
-where $\Delta P$ is the pressure difference from one side of the tube to the other.  The velocity is greatest when $r$ = 0, at the center of the vessel, and decreases parabolically to zero when $r$ = $R$, at the wall of the vessel.  [](#Fig2-10) illustrates this quadratic dependence.  
+where $\Delta P$ is the pressure difference from one side of the tube to the other.  The velocity is greatest when $r$ = 0, at the center of the vessel, and decreases parabolically to zero when $r$ = $R$, at the wall of the vessel.  [](#Fig2-9) illustrates this quadratic dependence.  
 ```{figure} images/Topic2/Fig2-9.jpg
 :align:	center
 :width: 100%

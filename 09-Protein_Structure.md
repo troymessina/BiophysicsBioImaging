@@ -11,7 +11,7 @@ numbering:
 (ProteinStructure)=
 ## Introduction
 
-Funded by the U.S. Department of Energy and the National Institute of Health, the monumental Human Genome Project was completed in 2003, providing a complete sequence of the 3 billion chemical base pairs and the 25,000-odd genes that make up our genetic map, or genome.  Like a blueprint for a house, the genome tells us how to create a human being - if we can learn to read it.  The next hurdle for scientists is interpretation.
+Funded by the U.S. Department of Energy and the National Institute of Health, the monumental Human Genome Project was completed in 2003, providing a complete sequence of the 3 billion chemical base pairs and the 25000-odd genes that make up our genetic map, or genome.  Like a blueprint for a house, the genome tells us how to create a human being - if we can learn to read it.  The next hurdle for scientists is interpretation.
 
 Each gene codes for a specific protein, and each protein performs a specific function in the cell.  Some proteins provide the structure of skin, bones, and hair; other proteins transport molecules across membranes; and still other proteins facilitate important chemical reactions.  Now that the human genome is complete, we want to know which gene codes for which protein and what that protein does in the body.  Given the tight relationship between structure and function in biology, it becomes necessary to determine the three-dimensional shape of a protein before we can ascertain what the protein does in the cell.  
 

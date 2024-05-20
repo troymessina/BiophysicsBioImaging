@@ -8,7 +8,7 @@ numbering:
 
 ![](./images/Topic3/Topic3.jpg)
 
-(Topic_3)=
+(Hearing)=
 ## Introduction
 
 The human ear can detect an extraordinary range of sound intensities, from a faint whisper to a clap of thunder 10 billion times as loud.  The ear can also distinguish frequencies from 20 to 20,000 Hz, allowing us to pick a familiar voice out of a crowd or enjoy the nuances of an aria.  How does the ear perceive such a wide range of sounds, and how is the information transmitted to and integrated in the brain?
