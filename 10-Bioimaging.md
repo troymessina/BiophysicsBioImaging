@@ -1,8 +1,8 @@
 ---
 title: Topic 10 - Bioimaging
 numbering:
-  headings:
   heading_1:
+  headings:
     start: 11
 ---
 
@@ -356,3 +356,72 @@ MicroCT Imaging.
 
 Bioluminescence Imaging.
 :::
+
+## Problems
+
+1. An ultrasound probe is used to locate muscle tissue lying beneath a layer of fat. The echo from the surface of the muscle tissue is observed with a delay of 30 µs relative to the one from the first surface of the fat layer. From [](#table_P10.1), calculate
+(a) the thickness of the fat layer
+(b) the % reflection from the fat-muscle interface
+```{table} Densities and impedances of bodily materials.
+:label: table_P10.1
+:align: center
+| Material | Density $\left(\times 10^{-3} {\rm kg/cm^3}\right)$ | Propagation Velocity $\left({\rm m\cdot s^{-1}}\right)$ | Impedance $\left(\times 10^{-6} {\rm kg\cdot m^{-3}\cdot s^{-1}}\right)$ |
+|:---------|  --------------------------------------------:      | --------------------------:| -------:|
+| Muscle   | 1080                                                | 1580                       |  1.71   |
+| Fat      |  900                                                | 1450   	                  |  1.30   |
+```
+
+2. Consider [](#Fig10-P1) shown below on the left, which represents the attenuation that radiation experiences at different locations within a square sample.
+* a. Calculate the projections in the directions shown on the right side of the figure.
+* b. From those projections, reconstruct the image of the attenuation within the sample, using a simple backprojection. Use Excel to display the results as a 3D Bar Graph 
+* c. Obtain an image using a filtered backprojection using -0.4 as the multiplier for the side cells.
+```{figure} ./images/Topic10/Fig10-Prob1.png
+:label: Fig10-P1
+:width: 100%
+:align: center
+:alt: Signal attenuation in a CAT scan projection.
+Signal attenuation in a CAT scan projection.
+```
+
+3. Suppose a microscope objective is characterized by a numerical aperture (i.e. ${\rm NA} = n \sin(\theta)$, where $n$ is the lens index of refraction) of approximately ${\rm NA}=1$. If the wavelength used is 500 nm, what is the ultimate resolution of this microscope? HINT: The Rayleigh Criterion can be rewritten $d\approx 1.22 \lambda/{\rm NA}$.
+```{figure} ./images/Topic10/Fig10-Prob3.png
+:label: Fig10-P3
+:width: 50%
+:align: center
+:alt: Diagram of a microscope objective's numerical aperture.
+Diagram of a microscope objective's numerical aperture. 
+```
+
+4. A digital microscope is just a digital camera for which the lens is replaced with a microscope objective.  For these microscopes, the light gathered by the objective (the lens right above the sample) is projected directly onto the surface within a digital camera that converts light into electrical signals (the array).  Each element of the array is  called a “pixel” (short for picture element). See [](#Fig10-P4)
+* a. Suppose that when the microscope is focused the object distance (sample to objective) is 1 mm and the image distance (objective to camera) is 30 cm. What is the magnification of the system?  
+* b. If the resolution of a microscope (the smallest object you can resolve) is 0.3 μm, what is the corresponding size of such an object in the image plane (where the camera is located)?
+* c. From your answer in part b, would you say that the image of a very small object (one equal in size to the image resolution) will look “pixelated”. To answer this question you will have to research the average size of a camera pixel and compare it to the image resolution in the image plane.
+```{figure} ./images/Topic10/Fig10-Prob4.png
+:label: Fig10-P4
+:width: 70%
+:align: center
+:alt: Diagram showing digital imaging onto a pixel array.
+Diagram showing digital imaging onto a pixel array.
+```
+
+5. Suppose a crystal is composed of alternating atomic layers as shown in [](#Fig10-P5). What x-ray diffraction pattern (intensity versus angle $\theta$ pattern) will you get for such a crystal? Use Excel to solve this problem. Limit your calculations to the top 11 layers. 
+```{figure} ./images/Topic10/Fig10-Prob5.png
+:label: Fig10-P5
+:width: 50%
+:align: center
+:alt: Diagram showing x-ray reflection from parallel layers of atoms in a crystal.
+Diagram showing x-ray reflection from parallel layers of atoms in a crystal.
+```
+6. The precession of spins in a magnetic field follows the so-called Larmor equation 
+$$\omega = \gamma B,$$ 
+where $\omega$ is the angular frequency in rad/s, $B$ is the magnetic field is teslas, and $\gamma$ is a constant known as the gyromagnetic ratio. For a proton, $\gamma = 2.68\times 10^8~{\rm rad\cdot s^{-1}\cdot T^{-1}}$. Calculate the precession frequency $f$ (in Hz) for the magnetic fields shown in [](#table_P10.6). Which of those frequencies fall in the microwave range?
+```{table} Magnetic fields of several NMR/MRI instruments.
+:label: table_P10.6
+:align: center
+| System | $B$ (Tesla) |
+|:------ | -------:    |
+| Table-top NMR | 0.3  |
+| Clinical MRI  | 1.5  |
+|Chemistry’s NMR|11.7  |
+|High-field NMR |21.2  |
+```

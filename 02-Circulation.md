@@ -267,3 +267,5 @@ Please explain.
 ```
  
 7.	A small blood vessel of radius $R$ branches into several vessels of smaller radius $r$. If the average fluid velocity in the smaller vessels is half that in the large vessel, how many vessels of radius $r$ must there be? Verify your result with examples.
+
+## Computational Class Activity
