@@ -190,7 +190,7 @@ To get a better feel for the mathematics involved, let us work a very simple exa
 3 & 0 & 0
 \end{matrix}
 We might think of 3 as representing bone and 0 as representing surrounding tissue. To get all the necessary information, we need to do scans from four different angles.  We sum up the values for each line scan from each angle, yielding a total of twelve values:  
-```{figure} ./images/Topic10/CTExample1.png
+```{figure} ./images/Topic10/CTExample1.PNG
 :label: CTEx1
 :width:	100%
 :align: center
@@ -198,7 +198,7 @@ We might think of 3 as representing bone and 0 as representing surrounding tissu
 Example CAT scan result as a matrix for each different scan angle.
 ```
 Now we are ready to do a simple back-projection.  First we divide the sums attained above by the number of boxes that have contributed to each scan, which in each case here is either two or three.  Then we place the resulting value in each square along the projection line. Finally, we add up the four values for each of the nine squares to arrive at the final image.  
-```{figure} ./images/Topic10/CTExample2.png
+```{figure} ./images/Topic10/CTExample2.PNG
 :label: CTEx2
 :width:	100%
 :align: center
@@ -210,7 +210,7 @@ Compare the final image to the original sample.  Some areas appear to be absorbi
 Is there an easy way to remove the unwanted absorption from the image so that it better represents the object?  Yes, but this so-called filtered back-projection requires more calculation.  It works by subtracting off extra-high values from adjacent boxes by using a multiplier.  To see what this means, we will work through the filtered back-projection for the example above, using multipliers of 1 for the centerline and -0.45 for the side lines.
 
 We start with the first scan taken at 0$^{\circ}$ (upwards through the left-hand column).  The sum is 3, and since there are three boxes over which to distribute this value, each square gets an initial value of 1.  Before we assign the values, though, we apply the multipliers: the values in the left-hand column (the current centerline) are multiplied by 1, so that they remain the same.  The values on either side of the column (here, only the values in the middle column since there is no column to the left) take on the value of -0.45 times the value of the centerline boxes.  The result is shown below.
-```{figure} ./images/Topic10/CTFilter1.png
+```{figure} ./images/Topic10/CTFilter1.PNG
 :label: CTFil1
 :width:	50%
 :align: center
@@ -219,7 +219,7 @@ Example CAT scan back-projection result with filtering.
 ```
 
 We carry out the same procedure for the middle and right-hand columns in the same way.
-```{figure} ./images/Topic10/CTFilter2.png
+```{figure} ./images/Topic10/CTFilter2.PNG
 :label: CTFil2
 :width:	100%
 :align: center
@@ -227,7 +227,7 @@ We carry out the same procedure for the middle and right-hand columns in the sam
 Continuing the filtering example.
 ```
 Next we go on to the second scan, taken at 45$^{\circ}$.  The same calculations are performed.  
-```{figure} ./images/Topic10/CTFilter3.png
+```{figure} ./images/Topic10/CTFilter3.PNG
 :label: CTFil3
 :width:	100%
 :align: center
