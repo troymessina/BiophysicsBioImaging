@@ -126,7 +126,7 @@ Fluid flow is described in general by Bernoulli's equation.
 P_1 + \rho g y_1 + \frac{1}{2}\rho v_1^2 = P_2 + \rho g y_2 + \frac{1}{2}\rho v_2^2
 \end{equation}
 where the variables $P$, $y$, and $v$ represent the pressure, elevation, and velocity, respectively, of a fluid at a given point as shown below in [](#Fig2-7).
-```{figure} ./figures/Topic2/Fig2-6.PNG
+```{figure} ./images/Topic2/Fig2-6.PNG
 :align: center
 :width: 75%
 :alt: Diagram of a fluid flow tube with labels pertaining to Bernoulli's Equation.
