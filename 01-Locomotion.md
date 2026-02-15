@@ -3,7 +3,7 @@ title: Topic 1 - Animal Locomotion
 numbering:
   headings:
   heading_1:
-    start: 2
+    start: 1
 ---
 
 ![](./images/Topic1/Topic1.jpg)
