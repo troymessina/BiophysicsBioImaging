@@ -3,19 +3,19 @@ title: Topic 3 - Wave Phenomenon in Hearing
 numbering:
   headings:
   heading_1:
-    start: 4
+    start: 1
 ---
 
 ![](./images/Topic3/Topic3.jpg)
 
 (Hearing)=
-## Introduction
+# Introduction
 
 The human ear can detect an extraordinary range of sound intensities, from a faint whisper to a clap of thunder 10 billion times as loud.  The ear can also distinguish frequencies from 20 to 20,000 Hz, allowing us to pick a familiar voice out of a crowd or enjoy the nuances of an aria.  How does the ear perceive such a wide range of sounds, and how is the information transmitted to and integrated in the brain?
 
 In this chapter, we will first review the physical properties of sound waves and then explore how the ear functions in terms of them.
 
-## General Properties of Sound Waves and Hearing
+# General Properties of Sound Waves and Hearing
 
 Sound is a pressure wave traveling in a medium.  We normally consider the medium to be air, but sound travels through liquids and solids as well.  For humans, as noted in the Introduction, the audible range is 20-20,000 cycles per second (Hertz).  Our hearing is particularly well suited to frequencies near 3,700 Hz, which corresponds to human speech.  
 ```{figure} images/Topic3/Fig3-1.jpg
@@ -82,7 +82,7 @@ It should be noted that the decibel scale is also used for characterizing change
 &=& 30~{\rm dB}\nonumber
 \end{eqnarray}
 
-## Structure and Function of the Ear
+# Structure and Function of the Ear
  
 The ear can be divided into three modules ([](#Fig3-2)), each of which performs an important function based on physical principles.  The ear canal, also known as the auditory canal or outer ear, collects sound waves from air and funnels them to the sound-sensing apparatus deep inside the head.  The ear canal, because of its tubular shape, acts as a resonator that allows the ear to hear sound frequencies within the resonance range better than others.  The second module, the middle ear, is designed to increase the transmission of sound waves as they pass from the air to the aqueous fluid of the inner ear, the third module.  The inner ear, in turn, contains sensors that convert water waves into nerve impulses.  The following sections describe the physical principles behind these functions. 
 ```{figure} images/Topic3/Fig3-2.jpg
@@ -93,7 +93,7 @@ The ear can be divided into three modules ([](#Fig3-2)), each of which performs 
 Cross-section of the human ear. The regions filled in yellow, red, and blue correspond to the outer ear (ear canal), the middle ear, and the inner year, respectively.
 ```
 
-### The Auditory Canal
+## The Auditory Canal
 
 The outer ear acts as a filter, restricting the passage of certain frequencies to the inner ear.  This performance can be understood in terms of acoustical resonances.  Before proceeding with our discussion, we will first review the principles behind the resonance phenomenon for both closed and opened pipes. Although the closed end case is not pertinent to the discussion of hearing, the equation developed will be useful for a forthcoming discussion of electron resonances within molecules ([Topic 6](#Topic_6)).
 
@@ -114,7 +114,7 @@ As shown in [](#Fig3-3), there are several resonances that can occur inside a cl
 \end{equation}
 where $n$ is the number of anti-nodes, always an integer $\geq$ 1. 
 
-#### Resonance in a Single Open End Pipe
+### Resonance in a Single Open End Pipe
 
 The ear canal behaves like a pipe open on one end.  As with the closed pipe, air cannot vibrate at the closed end, so it must be a node.  However, air at the open end is at the same pressure as air outside the pipe, so a pressure node, or a displacement anti-node must be located there.  As shown in [](#Fig3-4), this means that at the fundamental resonance there is only one node and one anti-node in the pipe. Consequently, only one-fourth of a wavelength fits in the pipe and thus $\lambda = (4/1)L$.  The next resonant pattern corresponds to one with two nodes and two anti-nodes, for which three-fourths of a wavelength fit in the pipe and so $\lambda = (4/3)L$. And the general formula for the pattern becomes 
 \begin{equation}\label{eqn3-8}
@@ -136,11 +136,11 @@ f &= \frac{c}{4L}\nonumber\\
 \end{align}
 In fact, the ear is most sensitive near 3,000 Hz, in agreement with our estimate made above.  The next resonance is predicted to have a frequency three times higher, i.e. 10,500 Hz.  Studies have shown that a small resonance does indeed exist near 12,000 Hz. Notice the increase in sensitivity at this frequency in [](#decibels). The relation between resonant frequency and the length of the ear canal helps to explain why smaller animals have hearing tuned to higher frequencies, compared to those of larger animals. For instance, the hearing range of mice and rats is between 1000 and 100,000 Hz, while that of an elephant falls between 1 and 20,000Hz.  
 
-### The Middle Ear
+## The Middle Ear
 
 Sound waves funneled through the auditory canal cause the eardrum to vibrate.  The vibrations are conducted through the three tiny bones (collectively called the ossicles) of the middle ear to their point of contact on the cochlea (inner ear) known as the oval window.  These bones serve two purposes: they protect against loud noises through the attenuation reflex, and they provide what is known as impedance matching between the outer ear and inner ear.  The attenuation reflex occurs when muscles reduce the action of the ossicles in response to a harmfully loud noise.  The physics of impedance matching will be discussed in depth in the following section.
 
-#### Impedance Matching
+### Impedance Matching
 
 When sound waves traveling in air collide with the surface of another medium, like water, they are mostly reflected.  Only a fraction of the wave’s energy is transmitted to the target medium.  You might have experienced this while swimming -- if someone tries to speak to you while you are under water, you will be unable to hear the person, because the sound waves bounce off the surface of the pool.  This phenomenon can be explained in terms of the conservation laws of momentum and energy.  Recall from [](#Fig3-1) that it is the pressure changes associated with a sound wave that propels a pocket of molecules to move through the air.  When one of these pockets of air traveling with a velocity $v_{a1}$ collides with a stationary mass of water ($v$ = 0), the collision is essentially elastic, meaning that no kinetic energy is lost.  Some of the air’s kinetic energy is transferred to the water mass, so that the air mass bounces off with velocity $v_{a2}$ and the water mass moves with velocity $v_{w}$.  This is depicted in [](#Fig3-5) below.
 ```{figure} images/Topic3/Fig3-5.jpg
@@ -219,7 +219,7 @@ Dependence of transmission on impedance ratio.  Note that transmission is 100\% 
 ```  
 So what would happen if the middle ear was not present, and sound waves struck directly the oval window of the fluid-filled inner ear? In that case the sound transmission would diminish by 30 decibels as our calculations predict. Fortunately, our hearing has evolved a way to minimize the impact of impedance mismatch at the interface between air and water. Sound waves traveling through air strike the surface $A_{eardrum}$ of the ear drum. This acoustical power is then channeled through the middle ear bones into a much smaller area focused around the oval window. The ratio of the areas $A_{eardrum}/A_{oval-window}$ results in a ratio $A_a/A_w\approx 20$ in Eqn. {eq}`eqn3-14`, rather than 1 as we assumed without the middle ear. In terms of impedance, the mismatch between $\mathcal{Z}_a$ and $\mathcal{Z}_w$ ($\mathcal{Z}_a$/$\mathcal{Z}_w$ = 1/4000) is now significantly reduced ($\mathcal{Z}_a$/$\mathcal{Z}_w$ = 20/4000), allowing the sound transmission into the inner ear to increase approximately 20 fold.  The function of the middle ear is thus to aid in impedance matching. 
 
-### The Inner Ear
+## The Inner Ear
 
 The part of the inner ear used in hearing is called the cochlea (Latin for "snail shell").  This complex structure contains a coiled set of tubes, the inner structure of which is shown in greater detail in [](#Fig3-8).  
 ```{figure} images/Topic3/Fig3-8.jpg
@@ -239,7 +239,7 @@ Movement of fluid in the cochlea.
 ```
 Basilar fibers, which vary in length and stiffness along the basilar membrane, respond to the wave by bending back and forth.  See [](#Fig3-10). Movement of these fibers causes hair cells in the immediate vicinity to vibrate, which triggers nerve impulses that travel to the brain and are interpreted as a sound of a particular frequency. The function of the inner ear relies heavily on the resonance phenomenon. We will now model the physics of resonance in basilar fiber motion.  
 
-#### Resonance in Basilar Fiber Motion
+### Resonance in Basilar Fiber Motion
 
 Consider a simple elastic system that is allowed to oscillate, as shown in [](#Fig3-10), where $k$ is the elastic constant.  
 ```{figure} images/Topic3/Fig3-10.jpg
@@ -275,7 +275,7 @@ Traveling waves along the basilar membrane.
  
 The basilar fibers allow us to distinguish the loudness and pitch of a sound.  A wave with a large amplitude causes the fibers to vibrate vigorously.  In response, action potentials are rapidly created, and the brain interprets this as a loud sound.  A sound wave with a high frequency, on the other hand, causes hair cells adjacent to a point on the basilar membrane near the oval window to vibrate.  This stimulates neurons to fire signals to the brain that are interpreted as a high pitch.
 
-## Problems
+# Problems
 1. Elephants possess ear canals that are approximately 20 cm long. What sound frequency would you expect this animal to be most sensitive to?
 
 2. A new age healer describes a ritual for ridding the body of a viral infection. According to the healer, the method involves a chant containing high-pitched segments that cause viruses to resonate and break apart. To verify whether this approach is physically reasonable, estimate the resonant frequency for a virus assuming it can resonate like a closed pipe and the speed of sound within is about 1000 m/sec. For the length of the pipe, use an average size of a virus (You can look up the size online but quote the source). Is the value obtained within the range of speech?
