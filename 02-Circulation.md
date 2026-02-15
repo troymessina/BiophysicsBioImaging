@@ -3,7 +3,7 @@ title: Topic 2 - Fluid Mechanics of the Circulatory System
 numbering:
   headings:
   heading_1:
-    start: 2
+    start: 1
 ---
 
 ![](./images/Topic2/Topic2.jpg)
