@@ -8,16 +8,20 @@ project:
   #authors: [Juan Rodriguez, Kathryn Thompson, Meridith Stewart, and Troy Messina]
   numbering:
     headings: true
-  github: https://github.com/troymessina/BiophysicsBioImaging
+  #github: https://github.com/troymessina/BiophysicsBioImaging
   jupyter:
     lite: true
 site:
   template: book-theme
-  #title: Biophysics and Bioimaging
+  title: Biophysics and Bioimaging
   options:
     logo: ./images/primary_rgb.png
     logo_dark: ./images/primary_white.png
     logo_text: Biophysics and Bioimaging
+    favicon : ./images/favicon.ico
+    comments:
+        hypothesis: true
+        utterances: true
   nav: []
   #actions:
   #  - title: Learn More
