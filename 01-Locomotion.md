@@ -9,14 +9,14 @@ numbering:
 ![](./images/Topic1/Topic1.jpg)
 
 (Locomotion)=
-## Introduction
+# Introduction
 
 Imagine a giraffe, a Chihuahua, and an ant walking side by side without undue urgency. For every stride that the giraffe makes, the Chihuahua takes many and the ant many more. Most people intuitively know that the shorter the length of one’s legs, the faster they tend to swing. In other words, an inverse relation exists between the size of a creature and how quickly it can move its legs. Why would such a scaling relation exist?  
 When walking at a leisurely pace, one may assume that the locomotion is executed in a way that minimizes energy expenditure.  A way to accomplish this is to let gravity do as much of the work whenever possible.  When an animal takes a step, the leg swings naturally from the hip, much like a pendulum in a gravitational field.  If the animal swings them faster or slower than their natural swinging time, you might think this may require undesirable additional energy expenditure. Thus, animals may want to swing their legs at precisely the natural swinging frequency of a pendulum in order to minimize energy expenditure. If so, does this account for why animals with shorter legs tend to swing them at a faster rate?  Let us set up the model and find out.
 
-## Pendulum Motion
+# Pendulum Motion
 
-### The Simple Pendulum: A Case in Point
+## The Simple Pendulum: A Case in Point
 
 While almost any object can act as a pendulum, those that possess complex physical forms are difficult to analyze.  For this reason, we will begin by examining the most straightforward case: the simple pendulum in a gravitational field.  The simple pendulum is aptly named, for it simply consists of a point mass suspended from a massless string.  The string is made massless to avoid having to calculate its rotational inertia, which, as you may recall, is a quantity that depends on the distribution of mass.  If we think of the leg as a simple pendulum, it is as if the entire mass of the leg is concentrated in the foot.  [](#Fig1-1) below shows a simple pendulum of length $\ell$ and mass $m$.  As the pendulum oscillates, the point mass traces an arc of the circle of radius $\ell$.
 ```{figure} images/Topic1/Figure1-1.jpg
@@ -140,7 +140,7 @@ Interestingly enough, in this model, the mass of the body or leg does not affect
 
 How accurately does Eqn. {eq}`eq1-12` predict stepping time?  The leg of the average adult human is approximately 0.9 m, corresponding to a theoretical stepping time of 0.95 s.  Biophysics students measure $\tau$ as part of a laboratory activity, finding it to be closer to 0.6-0.7 s.  The error is about 50\%, which is relatively small when one considers that the human leg looks nothing like a point mass attached to a massless string.  In the next section, we will improve the model by taking into account the distribution of mass in the leg.  
 
-### The Physical Pendulum: A Refined Model
+## The Physical Pendulum: A Refined Model
 
 Contrasted with the simple pendulum where the mass is concentrated at a point, the physical pendulum approach is capable of handling any arbitrary distribution of mass that swings about a fixed pivot.  Examine the diagram shown below for a human leg swinging as a physical pendulum.
 ```{figure} images/Topic1/Figure1-6.jpg
@@ -215,7 +215,7 @@ One might be tempted to think that leg length is the only variable that affects 
 
 [^1]: The procedure is quite simple.  To verify for example that Eqn. {eq}`eq1-10` is a solution, first take the second derivative of the right hand side. Then show that with some algebraic manipulation that it equals $-(g/l)x$ as Eqn. {eq}`eq1-9` suggests.
 
-## Problems
+# Problems
 1. Verify that the solutions for $x$ given by Eqn. {eq}`eq1-10` satisfy equation {eq}`eq1-9`. 
 
 2. T. Rex legs have been measured to be 2.5 m long.
