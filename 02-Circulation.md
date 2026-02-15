@@ -3,12 +3,12 @@ title: Topic 2 - Fluid Mechanics of the Circulatory System
 numbering:
   headings:
   heading_1:
-    start: 3
+    start: 2
 ---
 
 ![](./images/Topic2/Topic2.jpg)
 
-## Introduction
+# Introduction
 
 Single-cell organisms live in direct contact with the environment from where they derive nutrients and into where they dispose of their waste. For living systems containing multiple cells, there is the challenge of how to get nutrients past multiple layers of cells efficiently and how to avoid the build-up in waste products within deep cellular layers. The answer to these challenges is the development of an intricate plumbing network, containing pumps and distribution lines that are collectively called the circulatory system.  
 
@@ -22,9 +22,9 @@ To give you a sense for the complexity of the human circulatory system consider 
 The pressure in the circulatory system also undergoes changes as it traverses blood vessels of differing diameters and as it defies or succumbs to gravity.  Thus as we shall see, pressure is usually higher in the arteries than in the veins, but it also varies with posture. This is why accident victims are directed to keep bleeding wounds raised above heart level; this action lowers the blood pressure in the wound, and consequently lessens the bleeding.  
 Applying the laws of fluid mechanics to blood flow not only helps us understand the factors governing circulation, but lets us design better medical instruments and more effective treatments for diseases and accidents involving the circulation.  
 
-## Fluid Dynamics of Human Circulation
+# Fluid Dynamics of Human Circulation
 
-### Pressure and flow rate along a pipe: a few fundamental concepts
+## Pressure and flow rate along a pipe: a few fundamental concepts
 
 A fluid can move one way inside a pipe only if the fluid is pushed with a greater force from one side than from the other, i.e. if a pressure difference exists between the ends of the pipe. For example, when one end of a hose is connected to a faucet and the other placed over a drain, the water inside the hose experiences a pressure difference. That is, the side connected to the faucet is subjected to a high pressure (typically 60 PSI) whereas the side that empties into the drain is at 0 PSI. The pressure inside the hose varies accordingly from 60 PSI for a point near the faucet to 0 PSI at another point near the drain. In between, the pressure varies gradually between those two extremes (see [](#Fig2-1)).
 ```{figure} images/Topic2/Fig2-1.png
@@ -39,7 +39,7 @@ The fluid flow rate, i.e. the volume of fluid flowing through the hose per unit 
 
 The system depicted in [](#Fig2-1) is an example of an open system, i.e. one where the fluid is lost at the drain side. Obviously this is not a desirable design for a circulatory system where blood must be preserved. A closed system, i.e. one where blood is recycled back into the starting point, is thus absolutely necessary for the function of an animal. To accomplish this, a pump must exist to recycle the fluid back and to pressurize it once more so that its flow is maintained constant throughout the system. The heart fulfills that function. 
 
-### The Systemic and Pulmonary Systems
+## The Systemic and Pulmonary Systems
 
 In addition to the need for a pump, the circulatory system requires constant intaking of oxygen and expelling of carbon dioxide that accumulates from metabolic processes. This gas exchange function is performed by the lungs, an organ that must therefore be an integral part of the circulatory system as important as the heart. 
 
@@ -73,7 +73,7 @@ The green and yellow bars illustrate the varying levels of blood pressure in the
 ```
 
 
-### The Continuity Equation
+## The Continuity Equation
 
 The volume flow rate through a pipe is defined as the volume of the fluid that passes a particular point per unit time.  We can quantify it by multiplying the cross-sectional area $A$ of the pipe by the velocity of the fluid $v$, which is distance covered per unit time. This is diagrammed in [](#Fig2-5).
 ```{figure} images/Topic2/Fig2-5.png
@@ -119,7 +119,7 @@ The volume flow rate out of the heart into the aorta is roughly $80~ \text{ml/s}
 
 Because of the inverse relationship between area and velocity in the continuity equation, we might be tempted to think that blood flows much faster through the tiny capillaries than through the huge veins and arteries.  This logic is misleading, however the total cross-sectional area is what matters, not the area of an individual blood vessel.
 
-### Hydrostatics
+## Hydrostatics
  
 Fluid flow is described in general by Bernoulli's equation.
 \begin{equation}\label{eqn2-3}
@@ -142,7 +142,7 @@ P = P_{\circ}+ \rho g h,
 \end{equation}
 $P_{\circ}$ is the pressure at an arbitrary reference point (in our case, the heart), and $h = y_2-y_1$ is the depth of the fluid below that point. This equation reflects the well-known phenomenon of increased pressure with depth.  The mean arterial pressure for a human lying down is 100 mmHg (1 mmHg = 133 Pa). However, in an upright human, that arterial pressure can vary from 90 mmHg in the brain to 190 mmHg in the feet. The corresponding venous pressure can vary from -10 to 90 mmHg. These pressure values are relative to atmospheric pressure (i.e. gauge pressure).
 
-### Effects of Viscosity
+## Effects of Viscosity
 
 Viscosity refers to the internal friction of a fluid resulting when layers of the fluid rub past each other.  This happens all the time inside pipes where layers adjacent to the walls move slower than layers deep inside the pipe.  Like any other frictional phenomenon, viscosity causes the fluid to gradually slow down.
 Imagine standing on a bridge over a creek, dropping leaves into the water.  The leaves that fall near the center of the stream float along much faster than the ones that land near the water’s edge.  In the same way, blood at the center of a blood vessel moves at a higher velocity than it does along the walls.  It helps to think of the blood as being partitioned in concentric cylindrical layers, each moving at a slightly different speed.  [](#Fig2-8) illustrates this concept.  
@@ -234,7 +234,7 @@ Blood flows into the aorta with an average speed of 32 cm/s.  Assuming the diame
 
 [^2]: Proof is left as a homework assignment.
 
-## Problems
+# Problems
 
 1.	According to physiology textbooks and our textbook, the pressure in the circulatory system increases from the top of the heart to the ankles by about 100 mm Hg, due to the hydrostatic pressure change with depth of the fluid.  Verify that such a pressure change is reasonably described by theory, by calculating the pressure increase over the expected change in depth, which is about 140 cm for an adult human. You may assume that the density of blood is the same as that of water.
 
