@@ -3,18 +3,18 @@ title: Topic 8 - Statistical Mechanics in Biology
 numbering:
   headings:
   heading_1:
-    start: 9
+    start: 1
 ---
 ![](./images/Topic8/Topic8.jpg)
 
 (StatMech)=
-## Introduction
+# Introduction
 
 One goal of systems biology is to integrate information about DNA, RNA, proteins, and all the interactions between them to build a predictive model of how a cell operates.  This involves tracking the interaction between trillions of atoms—how do we deal with it?  
 Even today’s most powerful supercomputers cannot handle such a problem.  Instead of attempting to precisely describe the motion of each atom or molecule in a system, it is best to restrict calculations to averaged quantities, or probabilistic outcomes.  A branch of physics called statistical mechanics helps us make simple predictions about the average energy content of an atom or molecule and the probability of its existence in a specific configuration.  
 The relationship between energy and probability is at the heart of many theories in modern biophysics.  We will first introduce basic concepts in statistical mechanics before examining how it can be applied to some key concepts, including membrane potentials and protein folding.
 
-## Degrees of Freedom
+# Degrees of Freedom
 
 Degrees of freedom can loosely be thought of as independent ways in which an atom or molecule can move through space.  Since space is described by three independent directions ($x$, $y$, and $z$), an atom has three translational degrees of freedom.  Molecules can also rotate and/or vibrate, allowing other degrees of freedom.  In statistical mechanics, degrees of freedom are defined more rigorously as energies of the form $E(q) = cq^2$, where $q$ is a dynamic variable (e.g. $v_x$, $x$, or $\omega_x$) and $c$ is a constant.  Below are several examples of degrees of freedom:
 \begin{align}
@@ -25,7 +25,7 @@ E\left(\omega_x\right) &= \frac{1}{2}I\omega_x^2 &{\rm Rotational}\nonumber
 
 When a system of atoms or molecules is at thermal equilibrium with its environment at a  constant temperature $T$ (measured in Kelvin), one can prove with statistical mechanics that the average energy found in each degree of freedom is always $\frac{1}{2}k_BT$, where the Boltzmann constant $k_B = 1.38\times10^{-23}$ J/K.
 
-## Probability and the Boltzmann Factor
+# Probability and the Boltzmann Factor
 
 To illustrate the connection between energy and probability, let us consider a simple system of identical atoms capable of sharing identical quanta of energy.  Because every atom in the system continuously exchanges energy with the other atoms, the system can be found in a number of possible energy distributions.  If our system has five atoms and only one quantum of energy to be shared between the atoms, there are five possible ways in which the quantum can be distributed:
 :::{table} Arrangements of one quantum of energy among five atoms.
@@ -109,9 +109,9 @@ This ratio of probabilities, which is estimated from the Boltzmann factors, is i
 \end{eqnarray}
 Statistical mechanics shows that the agreement between estimated and actual probability ratios improves as the number of particles and the number of quanta grow.  Thus for biological samples with particles and quanta on the order of Avogadro's number, the Boltzmann factor is well suited to predict probabilistic outcomes.  Some of those applications, including membrane potentials and protein folding are discussed next.  
 
-## Applications of Statistical Mechanics
+# Applications of Statistical Mechanics
 
-### Membrane Potentials
+## Membrane Potentials
 
 An important application of the Boltzmann factor in biology is in understanding the relationship between the electric potential across a cell membrane and the concentration of ions on either side of the membrane.  Recall that there is no absolute electric potential; it is always measured relative to something.  Here, we will derive the potential on the outside of the cell relative to the potential on the inside, a quantity that will be expressed in terms of ionic concentration in those two regions.  In [](#Fig8-2) below, $V_{out}$ is the outside potential and $V_{in}$ is the inside potential.    
 ```{figure} ./images/Topic8/Fig8-2.png
@@ -164,7 +164,7 @@ These results agree reasonably with experiments that find the potential inside a
 $$V_{out}-V_{in}  =  -61~{\rm mV}\log_{10}\left(\frac{145}{5~{\rm to}~15}\right)= -60~{\rm to}~-89~{\rm mV}.$$
 The negative result implies that sodium ions are not in equilibrium, so there must be some non-equilibrium process going on to drive the ions up the concentration gradient.  This effect is achieved by the well-established sodium-potassium pump model.  The pump requires energy in the form of ATP to move three sodium ions out of the cell for every two potassium ions that enter the cell.  The pump will be discussed again in [Topic 11](#NeuralConduction) on nerve conduction, when we shall see that maintenance of the voltage difference across the cell membrane is critical to neuron function.
 
-### Protein Folding and Structure Prediction: Background
+## Protein Folding and Structure Prediction: Background
 
 Proteins are naturally occurring polymers that play many fundamental roles in a cell.  They are classified into three groups according to their shape and function:
 * Fibrous proteins contribute to the composition of bones, hair, feathers, tendons, and skin.
@@ -205,7 +205,7 @@ Both a protein's environment and its unique order of amino acids determine how i
   
 Since the structure of a protein (and thus its function) is encoded in its amino acid sequence, one might think that there must be a "code" that translates the sequence into a 3D conformation.  Unfortunately, this code has proved extremely difficult to crack due to its complexity.  To predict the shape of the protein from the amino acid sequence, a number of effects must be taken into account.  These include the bond forces and torques between adjacent amino acid and the possibility of hydrogen, ionic, and covalent bonding between distant amino acids.  Furthermore, external factors like temperature, pH, and solvation must be considered.
 
-### Protein Structure Prediction and the Boltzmann Factor
+## Protein Structure Prediction and the Boltzmann Factor
 
 As mentioned before, predicting protein structures from amino acid sequences is an arduous task, even with today’s computer technology.  So how do we begin to do it?  We assume that a protein folds to assume the lowest possible energy state and then use the connection between energy and probability - the Boltzmann factor - to develop computer algorithms for prediction.    
 
@@ -246,7 +246,7 @@ To verify that the global minimum has really been found, the computer program ca
 
 [^4]: Courtesy of http://www.biochem.ucl.ac.uk/bsm/dbbrowser/c32/aastruct.html
 
-## Problems
+# Problems
 
 1. Draw the configurations like we did in class for a four hairpin site polymer ($N = 4$). You can use Pascal’s Triangle to help you know how many configurations there should be for each $N_h$.
 ```{figure} ./images/Topic8/Fig8-Prob1.png
