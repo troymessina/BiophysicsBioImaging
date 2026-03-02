@@ -15,13 +15,13 @@ Funded by the U.S. Department of Energy and the National Institute of Health, th
 
 Each gene codes for a specific protein, and each protein performs a specific function in the cell.  Some proteins provide the structure of skin, bones, and hair; other proteins transport molecules across membranes; and still other proteins facilitate important chemical reactions.  Now that the human genome is complete, we want to know which gene codes for which protein and what that protein does in the body.  Given the tight relationship between structure and function in biology, it becomes necessary to determine the three-dimensional shape of a protein before we can ascertain what the protein does in the cell.  
 
-As of January 2017, scientists around the globe had catalogued the structures of about 116,000 proteins and other biological macromolecules.  These structures, known to atomic resolution, are deposited in and accessed from the RCSB Protein Data Bank (http://www.rcsb.org/pdb/statistics/holdings.do).  [](#Fig9-1) shows that the number of known structures has exploded in recent years as more powerful experimental techniques have been developed.
+As of February 2026, scientists around the globe had catalogued the structures of about 215,000 proteins and other biological macromolecules.  These structures, known to atomic resolution, are deposited in and accessed from the RCSB Protein Data Bank (http://www.rcsb.org/pdb/statistics/holdings.do).  [](#Fig9-1) shows that the number of known structures has exploded in recent years as more powerful experimental techniques have been developed.
 ```{figure} ./images/Topic9/Fig9-1.png
 :label: Fig9-1
 :width: 100%
 :align: center
-:alt: As protein structures have become easier to solve in recent years, the total number of known structures (marked in red) has increased tremendously. The marks in blue represent yearly increases in structures reported.
-As protein structures have become easier to solve in recent years, the total number of known structures (marked in red) has increased tremendously. The marks in blue represent yearly increases in structures reported.
+:alt: As protein structures have become easier to solve in recent years, the total number of known structures (marked in blue) has increased tremendously. The marks in orange represent yearly increases in structures reported.
+As protein structures have become easier to solve in recent years, the total number of known structures (marked in blue) has increased tremendously. The marks in orange represent yearly increases in structures reported.
 ```
 
 There are two principal techniques used to determine protein structure: X-ray Crystallography and Nuclear Magnetic Resonance (NMR) Spectroscopy.  Historically, x-ray crystallography has been the tool of choice for structural studies - nearly 90\% of all structures have been solved with it.  But, NMR spectroscopy has gained immense popularity in the last decade and is now mainstream as well.  Because they provide complementary information, these methods are extremely powerful when used together.  
