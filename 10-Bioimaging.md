@@ -3,19 +3,19 @@ title: Topic 10 - Bioimaging
 numbering:
   heading_1:
   headings:
-    start: 11
+    start: 1
 ---
 
 ![](./images/Topic10/Topic10.jpg)
 
 (Bioimaging)=
-## Introduction
+# Introduction
 
 In the past few decades, basic biological research and diagnostic medicine have flourished as imaging techniques have improved.  We can now view proteins at work in the cell, scan the body for anomalies, and watch neurons firing in the brain.  Imaging techniques are numerous and diverse, but they can be roughly grouped into three categories according to the types of images they produce: anatomical, functional, and molecular.  Anatomical imaging techniques show shape and structure directly.  Functional imaging relies on recording tissue activity like oxygen consumption or glucose metabolism to create an image.  Molecular imaging provides visual insight into events that occur at the molecular level, like gene expression.  As we shall see, the distinction is often blurred, particularly between the latter two types.
 
 This chapter will introduce the basic concepts behind some of the most widely-used types of bioimaging: microscopy, ultrasound imaging, and various types of tomography.
 
-## Microscopy
+# Microscopy
 
 Microscopes are used to magnify small objects so that they may easily be seen by the eye.  A number of types of microscopes exist.  Light microscopes, invented in the Renaissance, are still the most commonly used form of imaging in the laboratory today.  Electron microscopes, developed in the 1950s, have made possible much greater resolution, i.e.the smallest detail that can be distinguished.  Newer types, like confocal scanning laser microscopes and scanning probe microscopes, allow imaging of complex specimens and even individual molecules.  The quality of any microscope depends on both its resolution and its overall magnification, which is how big the object appears relative to its actual size.  Light microscopes, which can typically achieve resolutions of 0.2 $\mu$m and magnifications around 1000X. The resolution is limited by the diffraction of light through the objective much in the same way as the visual acuity in the eye is limited by the size of the pupil ([Topic 5](#OpticsVision), Eqn. {eq}`eqn5-7`):
 $$D=\frac{1.22\lambda}{\theta},$$ 
@@ -48,7 +48,7 @@ Further enhancement of cellular components can be achieved with fluorescence mic
  Fluorescence microscopy is achieved with the aid of wavelength-selective filters.  These filters select a narrow range of wavelengths for illumination of a sample, and separate the fluorescence from the portion of the illumination scattered by the sample.
 ``` 
 
-## Ultrasound Imaging
+# Ultrasound Imaging
 
 Ultrasound imaging, used to image internal organs and perform noninvasive prenatal exams, works by using higher frequencies of sound than can be heard by the human ear.  It is essentially the same as sonography, which is used for navigation both by bats hunting for food and by submarines and dolphins maneuvering around underwater obstacles.  Based on the pulse-echo principle, an ultrasound probe emits very short pulses of high-frequency sound waves and detects the reflected waves (echoes) that bounce off of internal surfaces, like the surfaces of bones or organs.
 
@@ -125,13 +125,13 @@ An illustration of the relationship between pulse width and lateral resolution i
 ```
 Narrow ultrasound beams can be produced by small ultrasound transducers but, due to diffraction (see [Topic 5](#OpticsVision)), their widths tend to spread out rapidly as soon as they propagate away from the transducer. The divergence of the beam width follows Eqn.{eq}`eqn5-7` of [Topic 5](#OpticsVision), $\theta = 1.22\lambda/D$, where here $D$ is the diameter of the ultrasound transducer and $\lambda$ is the wavelength of the wave in the medium (also equal to c/$f$). Therefore, for a frequency of 1 MHz, a propagation velocity of 1500 m/s, and a diameter of 1 mm, the divergence angle is about 1.8 radians. This implies that the radius of the beam increases by a 1.8 mm for every mm of penetration. Such a spread of waves makes it nearly impossible to resolve lateral detail, particularly for depths beyond a few mm. For neonatal applications, where the scanner must image to depths of 10 cm or so, a better approach is to adopt a wider transducer (~1 cm) in combination with a higher frequency ($\sim$5 MHz). This combination results in a much smaller divergence angle ($\sim$ 0.036 rad), that is in a beam for which the radius increases by only 0.036 cm for every cm of propagation.   
  
-## Tomography
+# Tomography
 
 The earliest form of medical imaging was probably the x-ray picture, which is still widely used today.  When x-rays transmitted through the body are captured on x-ray-sensitive film, they reveal "shadows" cast by different tissues.  A major drawback to this technique is the confounding patterns obtained when two or more tissues cast their shadow in the same place, particularly when one of them is a strongly-absorbing tissue such as bone. In such instances a clearer diagnosis could be obtained if one could isolate the image produced from a single depth (i.e. a cross-section) from all the others in the body.
 
 In the latter part of the twentieth century, innovations in technology and image analysis brought to fruition medical scanners that literally provide cross-sections of the body non-invasively, that is, without ever cutting the body open. The first of these methods, also known as x-ray Computed Tomography(CT), takes projections collected from different perspectives around the body and combines them mathematically to generate cross-sections of the body. Later, other methods emerged that obtained cross-sections of the body using other forms of energy. The principle behind these different forms of imaging, or imaging modalities, are discussed next.
 
-### X-Ray Computed Axial Tomography (CAT)
+## X-Ray Computed Axial Tomography (CAT)
 
 CAT scanners (also called Computed Tomography, or CT, scanners) were the first tomographic scanners developed for medical applications.  They use an array of x-rays beams projected from many angles around the body to create anatomical images like the one below.
 :::{figure}
@@ -242,7 +242,7 @@ After we do this for the third and fourth scans (90$^{\circ}$ and 135$^{\circ}$;
 \end{matrix}
 The result is much better than the simple back-projection; the areas where the sample absorbed x-rays the most are still clearly identified, but the surrounding areas drop to negligible values.  The technique is not perfect, as we still see ghosts in the upper left and lower right corners, but those would likely be reduced if we had probed the sample at additional angles.
 
-### Positron Emission Tomography (PET)
+## Positron Emission Tomography (PET)
 
 PET was the first form of tomography that made possible functional imaging.  Like CAT scanners, PET scanners make use of high-energy radiation to collect imaging data.  Instead of shooting x-rays through the body, however, PET scanners detect gamma rays (higher energy photons than x-rays) that are emitted from the body. Before a scan, the patient is given a substance such as oxygen gas or a glucose solution containing a radioactive isotope, like $^{15}$O or $^{18}$F. During their nuclear decay, these isotopes emit a particle called a positron. Positrons are the anti-matter version of protons, i.e. they ahev the same mass as an electron but they are positively charged. When substances containing these isotopes are metabolized by the body they are deposited at the site of metabolism from where they emit positrons. These particles are annihilated as soon as they encounter their anti-matter counterpart, the electron, and in their place two gamma rays emerge. Their mass is converted to energy, resulting in two gamma rays that propagate in opposite directions (due to conservation of momentum). When this happens, two gamma rays can be detected simultaneously on opposing sides of the body, as shown in [](#Fig10-12).  Because of the high density of electrons in the body, a positron can only travel several millimeters through tissue before being annihilated. 
 ```{figure} ./images/Topic10/Fig10-12.png
@@ -268,7 +268,7 @@ PET imaging has been widely used by neuroscientists to better understand what ar
 Image from http://www.alzheimers.org/unraveling/07.htm.
 :::	 
  
-### Magnetic Resonance Imaging (MRI)
+## Magnetic Resonance Imaging (MRI)
 
 MRI is perhaps the most useful type of tomography, providing excellent anatomical images without exposing patients to potentially harmful radiation.  [](#Fig10-13) shows an MRI cross-section of the head.
 ```{figure} ./images/Topic10/Fig10-14.jpg
@@ -305,7 +305,7 @@ After phase encoding in the $y$-direction, we do frequency encoding in the $x$-d
 
 Recall that since a dipole acts as a tiny magnet, its oscillation induces a measurable electric field - a radio wave.  After these two encoding steps, each dipole in the slice resonates at a slightly different frequency and phase; by carefully recording all the radio signals emanating from the body, computers can use Fourier transforms to mathematically separate the signals, thereby producing a spatial map of proton concentration.  This roughly corresponds to a map of water concentration, producing an anatomical image of biological tissues with a resolution of about 1 mm$^3$.  For almost all diagnostic purposes, this resolution is adequate.  
 
-### Functional MRI
+## Functional MRI
 
 In addition to providing detailed anatomical maps, MRIs can also localize changes in metabolic activity through a subtle tissue response known as the BOLD (Blood Oxygen Level-Dependent) effect. The BOLD effect refers to a temporary change in blood oxygenation observed within a tissue shortly after it increases its metabolic activity. This effect can be significant within the brain when a portion of it is activated by a mental task. As the vasculature attempts to balance the increased oxygen consumption from the tissue with additional blood flow, it creates a temporary imbalance between oxygen consumption and supply, resulting in higher levels of venous blood oxygenation. Since deoxygenated hemoglobin is normally magnetic, a drop in its concentration results in local changes in magnetic environment that lead to a change in the MRI signal.  The changes in MRI signals are very subtle, often requiring numerous repetitions and averaging before a significant difference is recognized. Due to the close association between the BOLD effect and metabolic activity, MRI-BOLD scanning is often referred to as functional MRI, or fMRI. Examples of images obtained with fMRI are shown below in [](#Fig10-17).
 ```{figure} ./images/Topic10/Fig10-17.png
@@ -316,7 +316,7 @@ In addition to providing detailed anatomical maps, MRIs can also localize change
 A typical set of functional MRI images, where an activation map is overlaid on a normalized single subject functional scan.  The activation is related to the control of auditory spatial selective attention.
 ``` 
  
-### Small animal imaging and Molecular Imaging
+## Small animal imaging and Molecular Imaging
 
 Tremendous strides have been made recently in understanding the molecular machinery that affects healthy and diseased mammalian tissues. These successes are due in large part to the use of small animals such as rats and mice, and numerous chemical methods for inducing conditions similar to diseases.   Also, small animals can be grown and bread rapidly to have special characteristics, such as chronic hypertension or obesity. Mice in particular can now be genetically manipulated so that they lack a specific gene from their genome. These “knock-out” animals allow scientists to test the role of specific genes in health and in disease.
 
@@ -357,7 +357,7 @@ MicroCT Imaging.
 Bioluminescence Imaging.
 :::
 
-## Problems
+# Problems
 
 1. An ultrasound probe is used to locate muscle tissue lying beneath a layer of fat. The echo from the surface of the muscle tissue is observed with a delay of 30 µs relative to the one from the first surface of the fat layer. From [](#table_P10.1), calculate
 (a) the thickness of the fat layer
