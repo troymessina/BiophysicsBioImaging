@@ -11,7 +11,7 @@ numbering:
 (PhotoExcite)=
 # Introduction
 
-[](#Topic_6)Topic 6 gave us a foundation for understanding the process of light absorption in organic molecules.  We now know that when a photon strikes a molecule, one of its electrons can absorb the energy and be promoted to an excited state. What happens next? Does the molecule retain that energy indefinitely? Is it converted into other forms? Here we discuss the fundamental processes that ensue from light absorption, and their relevance to biology as well as important biotechnological applications. 
+[Topic 6](#Topic_6) gave us a foundation for understanding the process of light absorption in organic molecules.  We now know that when a photon strikes a molecule, one of its electrons can absorb the energy and be promoted to an excited state. What happens next? Does the molecule retain that energy indefinitely? Is it converted into other forms? Here we discuss the fundamental processes that ensue from light absorption, and their relevance to biology as well as important biotechnological applications. 
 
 (Sec-Kashas-rule)=
 # Kasha's Rule
