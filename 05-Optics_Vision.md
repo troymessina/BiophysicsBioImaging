@@ -3,7 +3,7 @@ title: Topic 5 - Optics in Vision and Eyesight Correction
 numbering:
   headings:
   heading_1:
-    start: 6
+    start: 1
 ---
 
 ![](./images/Topic5/Topic5.jpg)
