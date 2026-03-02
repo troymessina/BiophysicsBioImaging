@@ -3,17 +3,17 @@ title: Topic 11 - Neural Conduction
 numbering:
   headings:
   heading_1:
-    start: 12
+    start: 1
 ---
 ![](./images/Topic11/Topic11.jpg)
 
 (NeuralConduction)=
-## Introduction
+# Introduction
 
 The human nervous system contains roughly 100 billion neurons, connected in elaborate networks that transmit information from one location in the body to another.  Consisting of the brain and spinal cord, the central nervous system interprets sensory input, initiates muscle contraction, and carries out all other cognitive tasks.  The nerves that communicate messages between the central nervous system and the rest of the body compose the peripheral nervous system.
 Despite the enormous complexity of the nervous system, there are aspects of neuron function that can be understood from simple physical principles. One of those aspects is the propagation of electrical impulses along neurons.  Since neurons send information to one another via electrical signals, we can treat them like classical electrical circuits.  In this topic we will review basic concepts in neurobiology and then describe the circuit model.  
 
-## Neurobiology Review
+# Neurobiology Review
 
 Neurons can be divided into three main parts: the soma, or cell body, which contains the nucleus and other organelles, and two types of fiber-like extensions called dendrites and axons.  Dendrites receive inputs from other cells and conduct signals towards the cell body.  Axons conduct signals away from the cell body towards their tips, where they are then passed on to other neurons or to muscle cells.  A neuron may have many dendrites but usually has only one axon, which can be as long as 1 m.  The junction between the axon of one neuron and the dendrite or cell body of another is called the synapse.  Dendrites and axons increase the distance over which cells can communicate and allow for complex neural networks that enable intelligence.    
 ```{figure} ./images/Topic11/Fig11-1.jpg
@@ -47,7 +47,7 @@ All action potentials have roughly the same strength.  Thus, the intensity of th
 
 While most neurons share the same basic structure, they vary greatly in length and speed of signal propagation.  In the brain where axons are as short as 0.01 mm, signals travel 0.5-2.0 m/s.  In the limbs, however, axons can be up to 1.0 m in length and carry signals at 100 m/s.  By examining the electrical properties of neurons, we can see what factors determine the speed of propagation.
 
-## Electrical Properties of Neurons
+# Electrical Properties of Neurons
 
 Enclosed in the membrane of any cell is a jellylike substance that contains both inorganic and organic matter.  In the cell body, this substance is called cytoplasm, but in the axon it is called axoplasm.  For an inactive neuron, the axoplasm has an overall negative charge.  This is because proteins, amino acids, phosphates, and other negatively-charged entities inside the cell cannot cross the selectively-permeable cell membrane.  Two types of positively-charged ions, potassium (K$^+$) and sodium (Na$^+$), can cross the cell membrane through selective ion channels.  Normally there are more potassium ions inside the cell than outside, whereas there are more sodium ions outside the cell than inside.  To combat the dissipation of the concentration and electrical gradients of these ions, a chemically driven pump works to move sodium out of the cell and potassium into the cell.  Its mechanism is described in [](#Fig11-4).    
 ```{figure} ./images/Topic11/Fig11-4.png
@@ -86,7 +86,7 @@ Movement of charges inside the axon in response to a stimulus.
 ```
 It is this movement of these charges, i.e. their electrical current, that dictates how fast the action potential travels along the length of the axon. As we shall see in this topic, these currents are limited not only by the electrical resistance they encounter but also by the way they interact with charges across the membrane (the membrane capacitance).
 
-### Resistance
+## Resistance
 
 In the neuron, there are two substances that exhibit electrical resistance: the axoplasm itself and the cell membrane plus myelin sheath, if present.  The electrical resistance $R$ along the length of the axon follows the same principles as a wire:
 \begin{equation}\label{eqn11-1}
@@ -111,7 +111,7 @@ R=\frac{\rho}{2\pi r\ell}
 \end{equation}
 For an unmyelinated axon (UA), $\rho_{\rm UA} = 0.20~\Omega\cdot {\rm m}^2$.  So, again for an average axon 1 mm long with radius 5 $\mu$m, $R_{\rm UA} = 6.4\times10^6~\Omega$.  Myelinated axons (MA) have a much higher resistivity, $\rho_{\rm MA} = 40.0~\Omega\cdot {\rm m}^2$, so $R_{\rm MA} = 1.3\times10^7~\Omega$.
 
-### Capacitance
+## Capacitance
 
 Recall that a capacitor is an electrical device that stores charge.  It consists of two conductors side by side, separated by some insulating substance called the dielectric. The ability to store charge comes from the attraction that charges in one plate experience toward the charges in the other. A simple capacitor, like the one below, requires a voltage to be applied across the conducting metal plates first, in order to move the charges from one plate to the other.  If both sides were electrically neutral to begin with, then moving positive charges from one plate automatically implies that a net negative charge of identical magnitude is left behind. 
 ```{figure} ./images/Topic11/Fig11-9.png
@@ -136,7 +136,7 @@ $$\frac{C}{A}=\frac{\epsilon}{d}= \frac{5\times10^{-11}}{5\times10^{-9}}=10^{-2}
 For myelinated axons, the myelin sheath contains a membrane that wraps around the axon a couple of hundred times. This multilayer arrangement effectively increases the thickness of the lipid bilayer by a factor of 200 (1 $\mu$m total thickness), so capacitance per unit area for a myelinated axon is:
 $$\frac{C}{A}=\frac{\epsilon}{d}= \frac{5\times10^{-11}}{1\times10^{-6}}=5\times10^{-5}{\rm F/m}^2~~ {\rm (myelinated~axon)}$$
 
-### Summary of Electrical Properties
+## Summary of Electrical Properties
 
 The electrical properties of neurons are summarized by [](#Fig11-10) and [](#table11-1) below.
  ```{figure} ./images/Topic11/Fig11-10.jpg
@@ -156,7 +156,7 @@ The physical model shows wires, two resistors, and a capacitor that approximate 
 | wall capacitance/area | C/A = 10$^{-2}$ F/m$^2$                  | C/A = 5$\times10^{-5}$ F/m$^2$|
 :::
 
-## Interpretation of Impulse Propagation 
+# Interpretation of Impulse Propagation 
 
 As explained in the Introduction, neurons are connected so that action potentials travel between them in only one direction.  The electrical properties of nerve cells discussed in the last section suggest that impulse propagation can be modeled as an array of resistors and capacitors, as shown below in [](#Fig11-11).
 ```{figure} ./images/Topic11/Fig11-11.jpg
@@ -168,7 +168,7 @@ Physical model of neural connections.
 ```
 The analysis of this electric circuit is complex, requiring the use of differential equations, but we can gain insight by considering how each repeating unit modifies the electrical signal.
 
-### Propagation Speed
+## Propagation Speed
 
 For simplicity, we will at first ignore the wall resistance.  For one circuit unit (i.e. one neuron), the voltage changes over time according to the equation
 \begin{equation}\label{eqn11-4}
@@ -238,7 +238,7 @@ Although the potential returns to normal after the K$^+$ channels open, [](#Fig1
 Propagation and amplification of the action potential in an unmyelinated axon.
 ```
 
-### Saltatory Conduction
+## Saltatory Conduction
 
 As indicated above, action potentials travel rapidly through myelinated portions of axons because the membrane capacitance is much smaller in those regions. This is particularly advantageous when signals must transmit information over long distances. The range of travel is, however, limited to a few millimeters before the signal decays. For unmyelinated axons equipped with membrane ion channels, the signals can propagate indefinitely without loosing strength, but at a remarkably slow speed. To overcome the problem of long-distance communication without loss of signal, nature has developed a clever scheme that combines the advantages of myelinated and unmyelinated axons. The scheme is shown below in [](#Fig11-17). Signals are allowed to propagate freely the length of myelinated portions, measuring roughly 1 mm each, until they reach the gaps (or nodes). There, the exposed part of the axon contains ion channels that boost the strength of the action potential back to its maximal value. Although the speed of propagation is slower there, the relative shortness of these segments (about 2 $\mu$m) imposes only a negligeable decay. Thus, as the action potential travels through these long axons, the action potential within appears to jump from node to node as it speeds through myelinated portions and slows at the nodes. This form of conduction is known as saltatory, a word derived from the latin to jump.
 ```{figure} ./images/Topic11/Fig11-17.png
