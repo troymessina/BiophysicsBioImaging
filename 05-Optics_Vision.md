@@ -8,15 +8,15 @@ numbering:
 
 ![](./images/Topic5/Topic5.jpg)
 (OpticsVision)=
-## Introduction
+# Introduction
 
 The eye is able to detect light over a range of brightness of ten billion to one. It can bring into focus both starlight from millions of light-years away and light reflected from this page, about 20 cm away.  The shape and optical properties of the eye allow light entering the iris to form an image on the back surface of the eye called the retina.  Two types of photoreceptive cells on the retina, the rods and the cones, are responsible for interpreting brightness and color.  
 
 We will first review the principles of optics and apply them to the eye.  Then we will discuss vision problems associated with small aberrations in the shape of the eye and how corrective eyewear and surgery can improve vision.
 
-## Geometrical Optics: A Review
+# Geometrical Optics: A Review
 
-### Properties of Light
+## Properties of Light
 In a vacuum, all electromagnetic waves, including visible light, travel at a singular speed ($3.0\times10^8$ m/s).  The speed of light in air is approximately the same, but in water and other dense transparent media, it travels significantly slower.  The index of refraction, denoted by $n$, is the ratio of the speed of light c in vacuum to the speed of light $v$ in the material:
 \begin{equation}\label{eqn5-1}
 n = \frac{c}{v}
@@ -54,7 +54,7 @@ Effect of light passing from a less dense medium (air) to a more dense medium (g
 
 As we shall see, different parts of the eye have different indices of refraction and spherical shapes. Together they form a system capable of focusing light from near or distant objects and still produce a clear image on the retina.
 
-### Thin Lenses 
+## Thin Lenses 
 
 The focal point of a lens is defined as the point at which parallel incoming rays (like from a distant light source or a laser) converge. For thin lenses, focal length f is the distance from the focal point and the center of the lens.  
 There are two main types of thin lenses: converging (positive) lenses and diverging (negative) lenses.  Converging lenses, also called focusing lenses, are thicker at their center than at their edges and have a positive focal length; diverging lenses are thicker at their edges than at their centers and have a negative focal length.  [](#Fig5-4) shows that parallel rays entering a converging lens from the left converge at the focal point on the outgoing (right) side of the lens.   Also shown in [](#Fig5-4) are parallel light rays entering a diverging lens.  If we were to extend the diverging rays back to the left, they would appear to intersect (converge) at the focal point on the incoming side of the lens.  As this focal point is on the side opposite to the outgoing light, the focal length is negative.  
@@ -80,7 +80,7 @@ Effect of light passing from a less dense medium (air) to a more dense medium (g
 ```
 As we shall see shortly, our eyesight possesses a mechanism that alters its focal length as needed to accommodate different objects distances.
 
-### Refractive Power
+## Refractive Power
 
 The strength of convergence of a lens depends on its refractive power, which is defined as the reciprocal of the focal length $f$ given in meters:
 \begin{equation}\label{eqn5-4}
@@ -111,7 +111,7 @@ where $R_1$ is the radius of curvature of the first surface light encounters as 
 Effect of light passing from a less dense medium (air) to a more dense medium (glass).  The wave slows down and the wavelength decreases.
 ``` 
 
-## Optics of the Eye and Vision
+# Optics of the Eye and Vision
 
 With this background in optics, we are now ready to examine the optical components of the eye.  [](#Fig5-8) gives the indices of refraction for the optical materials through which light must pass.
 ```{figure} ./images/Topic5/Fig5-8.png
@@ -129,7 +129,7 @@ The components of the eye are as follows:
 * **Crystalline lens**.  The lens is composed of a strong elastic membrane that encapsulates a viscous, protein-rich substance.  Its spherical shape is controlled by a muscle.  When the muscle contracts, the lens thickens, increasing the refractive power of the lens.  This is what allows us to see objects up close.  When the ciliary muscle relaxes, the lens flattens, making distance vision possible.
 * **Retina**.  The retina is the layer of tissue lining the back of the eye.  It is covered with two types of light receptors called rods and cones.  These receptors convert light into nerve impulses that travel to the visual cortex where they are interpreted.
  
-### Refractive Power of the Eye
+## Refractive Power of the Eye
 
 The lens and the cornea are the components of the eye most responsible for refraction.  We will now find the refractive power of each component separately and then find the total refractive power of the eye by summing these values.
 The refractive power of the eye is due mostly to refraction from air to the aqueous humor, which is dictated by the shape of the cornea.  It can be calculated using Eqn. {eq}`Fig5-6`.  Since the cornea only has one surface, $R_1$ is simply the radius of curvature of this surface ($\sim$ 8 mm. FYI this is one of the numbers characterizing contact lenses so that they fit properly.), and $R_2$ is infinity.  Approximating the index of refraction of the aqueous humor is 1.33, we see that 
@@ -138,7 +138,7 @@ We also use Eqn. {eq}`Fig5-6` to calculate the refractive power of the lens.  Th
 $$P = \left(1.40 - 1.335\right)\left(\frac{1}{0.0102}+\frac{1}{0.006}\right) = 17.20~{\rm diopters}.$$
 Thus, by Eqn. {eq}`Fig5-5`, the total refractive power of the eye is about 58 diopters.  Note that this value was calculated for an eye focusing on distant objects.
 
-### Accomodation
+## Accomodation
 To focus clearly on nearby objects, the eye must increase its total refractive power.  As mentioned earlier, it accomplishes this by changing the shape of the lens, a process called accommodation.  [](#Fig5-9) illustrates how accommodation occurs.
 ```{figure} ./images/Topic5/Fig5-9.png
 :width: 100%
@@ -162,7 +162,7 @@ As we age, the lens slowly grows and loses its elasticity.  When this occurs, th
 :::
 This phenomenon is inevitable — it is the reason people begin to wear reading glasses when they reach middle age.
 
-### Visual Acuity
+## Visual Acuity
 
 Visual acuity is defined as ability to visually resolve fine detail. The most common measure of acuity is the Snellen chart, such as the one shown in [](#Fig5-10), which identifies what a person can see at 20 feet relative to what person with normal eyesight can see x feet way. Thus, 20/20 is normal, whereas 20/200 is regarded as very poor eyesight. Contacts, eyeglass, and surgery can improve many of the eye’s refractive errors that cause poor visual acuity. In some cases however, the best eyesight correction that can be afforded is 20/200, at which point one is classified as legally blind.
 ```{figure} ./images/Topic5/Fig5-10.png
@@ -226,7 +226,7 @@ Effect of light passing from a less dense medium (air) to a more dense medium (g
 
 From the Rayleigh Criterion we can therefore argue that the minimum resolvable separation between two spots on the retina should be $D/2$, or 6 $\mu$m. This figure is very close to the 5 $\mu$m estimate we inferred from the definition of visual acuity. Diffraction explains why visual acuity is limited even for a person with perfect refractive power.
 
-### Pupillary Diameter Effects
+## Pupillary Diameter Effects
 
 The role of the pupil is to limit the light intensity reaching the cornea.  In bright light, the pupil has a diameter of 1.5 mm.  In dim light, the pupil dilates to 8.0 mm.  This increases the light intensity reaching the retina by a factor of 30. Aside from brightness control, the pupil size can also affect visual acuity.  You may have experienced this effect if your eyesight is not perfect: you seem to see more clearly in bright light than in dim light. [](#Fig5-15) explains the origin of this phenomenon for an eye with less-than-perfect refractive power, which is often the case for most of us. 
 ```{figure} ./images/Topic5/Fig5-15.png
@@ -240,7 +240,7 @@ The top image shows light entering the eye through a dilated pupil. If the eye w
 
 The effect of a small aperture size on visual acuity also accounts for why people tend to squint whenever they try to resolve fine detail. The small aperture created by nearly closed eyelids produces a similar effect to that of a constricted pupil.   
 
-## Eyesight Problems and Correction
+# Eyesight Problems and Correction
 
 The last section on the effects of pupillary diameter touched upon how the shape of the eye affects vision. Emmetropia is the state of the eye when the image is focused exactly on the retina. Hyperopia, or farsightedness, occurs when the eye is too short -- the image is focused behind the retina and appears blurry.  Myopia, or nearsightedness, happens when the eye is elongated so that the image is focused just before the retina.  Also in this case, vision is blurry without correction.  [](#Fig5-16) depicts these three conditions.
 ```{figure} ./images/Topic5/Fig5-16.png
@@ -288,7 +288,7 @@ Effect of light passing from a less dense medium (air) to a more dense medium (g
    
 Refractive errors, including astigmatism, can be corrected in several ways. A common way is by using eyeglasses to compensate for deficiencies or excesses of refractive power of the eye. The lenses can be easily tailored to correct for myopia, hyperopia, or astigmatism.  Contact lenses placed directly on the cornea work much like eyeglasses, and can even compensate for astigmatism. Alternatively, the cornea may be reshaped surgically with incisions or laser ablation to achieve the necessary changes in refractive power. This procedure is known as keratotomy. 
 
-## Problems
+# Problems
 1. The cornea and lens have a combined focal length of 1.7 cm when the eye focuses on a distant object. 
 	* a. What is the corresponding refractive power?
 	* b. Suppose that the distant object is now brought to a distance of 20 cm from the eye, while the lens in the eye is still focusing on distant objects. As this happens, the image location shifts from focusing on the retina to a new location theoretically beyond the retina. How far behind the retina will the new image location be?
