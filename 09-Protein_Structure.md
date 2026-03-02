@@ -3,13 +3,13 @@ title: Topic 9 - Experimental Determination of Protein Structure
 numbering:
   headings:
   heading_1:
-    start: 10
+    start: 1
 ---
 
 ![](./images/Topic9/Topic9.jpg)
 
 (ProteinStructure)=
-## Introduction
+# Introduction
 
 Funded by the U.S. Department of Energy and the National Institute of Health, the monumental Human Genome Project was completed in 2003, providing a complete sequence of the 3 billion chemical base pairs and the 25000-odd genes that make up our genetic map, or genome.  Like a blueprint for a house, the genome tells us how to create a human being - if we can learn to read it.  The next hurdle for scientists is interpretation.
 
@@ -28,7 +28,7 @@ There are two principal techniques used to determine protein structure: X-ray Cr
 As we shall see, x-ray crystallography supplies information about the location of heavy atoms like carbons, oxygens, nitrogens, and heavy metal ions, while NMR gives the relative distance between pairs of hydrogen atoms or between a hydrogen atom and a carbon or nitrogen atom.  X-ray crystallography allows the structures of large proteins or complexes of proteins to be solved with great accuracy, but it is not useful for studying their dynamic properties since the technique requires the protein to be crystallized.  Crystal growth is extremely difficult and requires both luck and skill.  NMR, on the other hand, allows us to study proteins in solution, helping us to understand how they act *in vivo*.  However, most proteins over about 40 kDa have proved difficult to characterize by this method (1 Dalton = 1 amu/mol = $1.6605\times10^{-24}$ g/mol; 40 kDa = 40,000 amu/mol).
 The following sections will give the basic principles behind x-ray crystallography and NMR spectroscopy, as well as a flavor for how the data acquired by each method is analyzed.  
 
-## X-Ray Crystallography
+# X-Ray Crystallography
 
 X-ray crystallography relies on the scattering of x-rays from electrons.  With wavelengths on the order of $\text {\AA ngstr{\"o}ms}$ (10$^{-10}$ m), an x-ray beam interacts strongly with the electron clouds of individual atoms in a crystallized protein, producing diffraction patterns that can be observed on a photographic plate. 
 
@@ -102,11 +102,11 @@ Finally, sophisticated computer graphics programs put together the data from ele
  Ribbon structure of myoglobin.
 ```
 
-## Nuclear Magnetic Resonance (NMR) Spectroscopy
+# Nuclear Magnetic Resonance (NMR) Spectroscopy
 
 Nuclear Magnetic Resonance (NMR) is the quantum mechanical phenomenon upon which two important technologies are based: NMR spectroscopy and Magnetic Resonance Imaging (MRI).  NMR spectroscopy, as we have already noted, provides information about protein structure.  Further, it aids the study of molecular dynamics, or how molecules or complexes of molecules behave in solution.  MRI uses essentially the same physical principles but for medical imaging purposes.  How NMR spectroscopy works is the focus of this section.  MRI will be discussed in [Topic 10](#Bioimaging).
 
-### The basic concept
+## The basic concept
 
 As the concepts behind NMR spectroscopy are highly mathematical and often unintuitive, providing an introductory-level explanation of NMR theory can be problematic.  For this reason we will begin with a classical analogue— compasses in a magnetic field — to get a sense of how NMR works, before introducing some of the quantum effects that make this type of spectroscopy so useful.
 
@@ -186,7 +186,7 @@ In order to elicit sizable signals from samples it is important to generate sign
 A child on a swing pumps the swing's motion.
 ``` 
 
-### Angular Momentum Effects
+## Angular Momentum Effects
 
 Due to angular momentum effects, the oscillatory signal from the dipole does not arise in quite the same way as it does from the compass.  In quantum mechanics, there is a direct connection between the magnetic dipole moment of a particle and its intrinsic angular momentum. In a sense, it is as if the spinning of a particle leads to the charge inside of it to move in a circle and therefore to act as a small electromagnet. Thus, each nucleon with a magnetic dipole moment also possesses angular momentum with a axis of rotation aligned with the south-north pole..     
 As a rule, whenever a body spinning about an axis is subjected to a torque (a turning force), its axis of rotation precesses.  Picture a bicycle wheel with one end of its axle tied to a string as shown in [](#Fig9-16).  If we hold the wheel upright and let it go, the force of gravity causes it to fall and oscillate like a pendulum, just as we would expect. This kind of motion is similar to that of the compass in a magnetic field.
@@ -247,7 +247,7 @@ As we argued earlier, the frequency of oscillation of a compass depends on both 
 NMR spectra show the frequencies associated with differing nucleons. In this case, the existence of a single frequency suggests that all nucleons behave identically. 
 ``` 
 
-### Chemical Shifts
+## Chemical Shifts
 
 All isolated protons resonate at the same frequency, but when placed within molecules they are affected by a variety of effects such as *electron shielding* and *spin-spin coupling*. These effects cause their frequencies to shift slightly and to different extents depending on their interaction with electrons and other nucleons within the molecule. These shifts are known as chemical shifts. These shifts are small - on the order of parts per million (ppm) - but it is detectable by NMR spectroscopy. By analyzing the shifts of an NMR spectrum, we can derive the structure of the molecule.
 
@@ -271,7 +271,7 @@ Take note that in the examples above we worked out the spectrum from knowledge o
 NMR spectrum of a small protein.
 ``` 
 
-### Beyond Simple Spectra
+## Beyond Simple Spectra
 
 Several ingenious techniques help us overcome the difficulty of analyzing such complex spectra.  For instance, you can make a set of nuclear spins to precess and probe how those affect the precession of others. You can also incorporate NMR-active isotopes, like $^{15}$N, into the protein.  To do this, protein samples are derived from cells grown in a special medium containing $^{15}$N.  This ensures that when the cells begin expressing the protein of interest, the amino acids will be labeled with the heavier isotope needed for resonance.  You can then run a spectroscopic experiment that correlates directly-bonded $^{1}$H and $^{15}$N atoms.  These techniques give rise to two-dimensional spectra, containing additional information that helps one determine the protein structure.
 
