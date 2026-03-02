@@ -3,18 +3,18 @@ title: Topic 7 - The Behavior of Photo-Excited Molecules - Biological Actions an
 numbering:
   headings:
   heading_1:
-    start: 8
+    start: 1
 ---
 
 ![](./images/Topic7/Topic7.jpg)
 
 (PhotoExcite)=
-## Introduction
+# Introduction
 
-Topic 6 gave us a foundation for understanding the process of light absorption in organic molecules.  We now know that when a photon strikes a molecule, one of its electrons can absorb the energy and be promoted to an excited state. What happens next? Does the molecule retain that energy indefinitely? Is it converted into other forms? Here we discuss the fundamental processes that ensue from light absorption, and their relevance to biology as well as important biotechnological applications. 
+[](#Topic_6)Topic 6 gave us a foundation for understanding the process of light absorption in organic molecules.  We now know that when a photon strikes a molecule, one of its electrons can absorb the energy and be promoted to an excited state. What happens next? Does the molecule retain that energy indefinitely? Is it converted into other forms? Here we discuss the fundamental processes that ensue from light absorption, and their relevance to biology as well as important biotechnological applications. 
 
 (Sec-Kashas-rule)=
-## Kasha's Rule
+# Kasha's Rule
 
  In 1953, Michael Kasha proposed that no matter how much light energy a molecule absorbs, it undergoes a rapid transition to the first excited state.  Since the transition occurs typically in less than one picosecond, we can assume that the molecule will always be effectively excited to the first excited state regardless of the energy carried by the photon. The process is sown in [](#Fig7-1). Furthermore, the transition from higher excited states to the first excited state usually emits no light, and is thus categorized as a radiationless transition.
 ```{figure} images/Topic7/Fig7-1.jpg
@@ -27,7 +27,7 @@ In a radiationless transition, the electronic energy difference is converted int
 
 From the first excited state, the molecule can proceed in one of many ways.  In this chapter we will examine six possible outcomes for an excited molecule: radiationless transition to the ground state; fluorescence; intersystem crossing; phosphorescence; excitation transfer to another nearby molecule; and charge transfer to another nearby molecule.  We will also discuss several biological systems and technologies that take advantage of these photophysical phenomena.
 
-## Radiationless Transition to the Ground State
+# Radiationless Transition to the Ground State
 
 A radiationless transition to the ground state is essentially the same as a radiationless transition from higher excited states to the first excited state, described in [](#Sec-Kashas-rule).  The only difference is that the molecule now transitions from the first excited state to the ground state.  No photons are emitted, and the excess energy is converted to heat, which is quickly released into the surrounding medium. 
 ```{figure} ./images/Topic7/Fig7-2.jpg
@@ -39,7 +39,7 @@ Radiationless transfer to the ground state.
 ```
 This process usually takes place on a nanosecond timescale, substantially longer than radiationless transitions from higher excited states.  Some molecules -- such as metalloporphyrins like hemes and cytochromes -- decay to the ground state very quickly, within a few picoseconds.  This fast decay is due to the presence of iron in the center of these molecules, which creates additional electronic states between the first excited state and the ground state that facilitate the decay.  Temperatures can reach 200$^{\circ}$C inside these molecules when the energy is converted to heat, but the heat is dissipated so quickly that the molecules suffer no damage.
 
-## Fluorescence
+# Fluorescence
 
 In fluorescence, as shown in [](#Fig7-2), the molecule begins in an excited state with no net spin, as all the spins of the electrons cancel each other out.  Within nanoseconds, a photon is emitted and the molecule returns to ground state.  The net spin remains zero.  The energy lost by the electron inside the molecule is entirely converted into photon energy.
 ```{figure} ./images/Topic7/Fig7-3.jpg
@@ -55,7 +55,7 @@ When isolated from their natural environment, most biological molecules exhibit 
 
 In vivo, however, most biological molecules display modest fluorescence, particularly within the visible range.  Either the fluorescence does occur but is quickly reabsorbed by surrounding molecules, or the molecule transfers the energy or an electron to a nearby molecule.  An exception to the lack of in vivo fluorescence occurs in association with the rare genetic disease porphyria.  One form of the disease is caused by an enzyme that fails to catalyze the binding of iron to the porphyrin ring of heme.  The porphyrins build up over time in the teeth and bones, which, if irradiated with UV light display a reddish fluorescence.
 
-## Intersystem Crossing
+# Intersystem Crossing
 
 In intersystem crossing, the molecule begins in an excited state with a net spin of 0 because all electron spins cancel one another. After a time, typically 10 nsec or longer, it ends in an excited state with a net spin of 1 (i.e. a spin angular momentum with a magnitude equal to $\hbar$ or $h/2\pi$.  This end state is called a triplet state because of a quantum mechanical effect that produces three possible states with different angular momentum orientations. [^3]
 ```{figure} ./images/Topic7/Fig7-4.jpg
@@ -81,7 +81,7 @@ Singlet oxygen is a very reactive free radical.  In porphyria, sunlight activate
 
 Photodynamic therapy (PDT), often used to treat skin cancer, uses the ability of photoexcited molecules to create $^1{\rm O}_2$.  Some molecules, like porphyrins, are absorbed preferentially by cancer tissue.  After applying a topical porphyrin-based substance to the skin and allowing it to absorb, the skin is irradiated with light.  The singlet oxygen produced by the triplet porphyrin then destroys the cancer tissue.  The technique is also used to treat cancers of the eye and throat.
 
-## Phosphorescence
+# Phosphorescence
 
 A molecule that undergoes phosphorescence begins in the excited triplet state and emits a photon to return the molecule to ground state.  Actually, transitioning straight from the triplet state to the ground state violates spin angular momentum; in phosphorescence, quantum processes cause the excited triplet state to become slightly “impure,” entering a metastable triplet state.  When this occurs, the molecule can then emit a photon and return to the ground state.  
 
@@ -97,7 +97,7 @@ Because triplet states are so long-lived, the process can take from seconds to m
 In vivo, phosphorescence is very difficult to observe.  Usually the triplet state is deactivated upon reacting with a "quencher" like oxygen before it can phosphoresce from this long-lived state.  If this does not occur, the molecule can undergo energy transfer ([](#Sec-energy-transfer)) or charge transfer ([](#Sec-charge-transfer)).  With so many processes to take away the excess energy, we rarely see light emitted through phosphorescence.
 
 (Sec-energy-transfer)=
-## Energy Transfer
+# Energy Transfer
 
 Excitation transfer, also called energy transfer, occurs between two molecules: an excited molecule passes its energy to a nearby molecule in its ground state.  The process is illustrated in [](#Fig7-7). No real photons are ever emitted or exchanged during this process; the electron movement from the excited molecule is "sensed" and its energy picked up by the ground-state molecule.  
 ```{figure} ./images/Topic7/Fig7-7.jpg
@@ -133,7 +133,7 @@ When the energy from the incoming photons reaches the reaction center, it is tra
 A final example of energy transfer involves the use of $\beta$-carotene to alleviate the harmful effects of photosensitizers, molecules that make something sensitive to light.  When a photosensitizer in the body absorbs light, it undergoes a rapid transition to the triplet state.  In the presence of $\beta$-carotene, the energy from the photosensitizer is transferred to the $\beta$-carotene molecule, which then returns to ground state by undergoing a radiationless transition.  Often taken as an antioxidant, $\beta$-carotene can be found in leafy green vegetables, yellow and orange vegetables, and fruits.  Incidentally, $\beta$-carotene is also used to treat the cutaneous porphyrias.
 
 (Sec-charge-transfer)=
-## Charge Transfer
+# Charge Transfer
 Like energy transfer, charge transfer occurs between an excited molecule and a ground-state molecule.  However, instead of energy passing between the two, the excited electron is exchanged as depicted in [](#Fig7-10).
 ```{figure} ./images/Topic7/Fig7-10.png
 :label: Fig7-10
@@ -156,7 +156,7 @@ In nature, the best example of light-induced charge transfer is the photosynthet
 
 [^3]: In general, quantum mechanical systems are allowed to change their angular momentum, but only in increments of $\hbar$. A system of $n$ electrons with a total spin magnitude of 1 (or $\hbar$) can change its direction, but only in orientations whose angular momenta differ by magnitude of $\hbar$. Thus, two electrons of the same spin ($\hbar/2$) can have three overall summative orientations: up (+1), down (-1), and sideways (0).  The only way to distinguish between these orientations is to apply a magnetic field.
 
-## Problems
+# Problems
 1. According to the Forster model, energy transfer between two molecules takes place over a time $\tau$ that increases with the separation R between the molecules according to the formula:
 $$\tau=\tau_{fluorescence} \left(\frac{R}{R_0}\right)^6$$
 where $\tau_{fluorescence}$ is the fluorescence lifetime of the molecules and $R_0$ is a constant known as the Forster, which is typically $50~\overset{\circ}{\text{A}}$ ($50\times 10^{-10}$ m). The fluorescence lifetime for a chlorophyll molecule is typically 100 nanoseconds. 
