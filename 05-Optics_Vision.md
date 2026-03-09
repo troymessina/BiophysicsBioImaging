@@ -166,11 +166,11 @@ This phenomenon is inevitable — it is the reason people begin to wear reading 
 
 Visual acuity is defined as ability to visually resolve fine detail. The most common measure of acuity is the Snellen chart, such as the one shown in [](#Fig5-10), which identifies what a person can see at 20 feet relative to what person with normal eyesight can see x feet way. Thus, 20/20 is normal, whereas 20/200 is regarded as very poor eyesight. Contacts, eyeglass, and surgery can improve many of the eye’s refractive errors that cause poor visual acuity. In some cases however, the best eyesight correction that can be afforded is 20/200, at which point one is classified as legally blind.
 ```{figure} ./images/Topic5/Fig5-10.png
-:width: 400px
+:width: 100%
 :align: center
 :alt: A typical Snellen chart used by optometrist to determine visual acuity.
 :label: Fig5-10
-A typical Snellen chart used by optometrist to determine visual acuity.
+A typical Snellen chart used by optometrist to determine visual acuity. By Jeff Dahl - [1], CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4262200
 ```
 
 In order to see the letters on the chart corresponding to 20/20, an eye must have the ability to revolve points separated by as little as an arc minute (= 1/60 of a degree or $2.9\times10^{-4}$ radians. To put it into perspective, consider two small light sources separated by a distance x = 1 cm, as shown in [](#Fig5-11). As you step back from those two sources by a distance $L$, the angle $\theta$ decreases and eventually reaches the limit of visual resolution, i.e.,  $\theta = 2.9\times10^{-4}$ radians. At this point, the corresponding distance $L$ is related to the angle $\theta = 2.9\times10^{-4}$ radians and $x$ by $\tan(2.9\times10^{-4}$ radians) = 1cm/$L$, from which we obtain a distance $L$ of 34 meters (100 ft). 
