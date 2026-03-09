@@ -173,7 +173,7 @@ Visual acuity is defined as ability to visually resolve fine detail. The most co
 A typical Snellen chart used by optometrist to determine visual acuity.
 ```
 
-In order to see the letters on the chart corresponding to 20/20, an eye must have the ability to revolve points separated by as little as an arc minute (= 1/60 of a degree or $2.9\times10^{-4}$ radians. To put it into perspective, consider two small light sources separated by a distance x = 1 cm, as shown in [](#Fig5-11). As you step back from those two sources by a distance l, the angle $\theta$ decreases and eventually reaches the limit of visual resolution, i.e.,  $\theta = 2.9\times10^{-4}$ radians. At this point, the corresponding distance $L$ is related to the angle $\theta = 2.9\times10^{-4}$ radians and $x$ by $\tan(2.9\times10^{-4}$ radians) = 1cm/$L$, from which we obtain a distance $L$ of 34 meters (100 ft). 
+In order to see the letters on the chart corresponding to 20/20, an eye must have the ability to revolve points separated by as little as an arc minute (= 1/60 of a degree or $2.9\times10^{-4}$ radians. To put it into perspective, consider two small light sources separated by a distance x = 1 cm, as shown in [](#Fig5-11). As you step back from those two sources by a distance $L$, the angle $\theta$ decreases and eventually reaches the limit of visual resolution, i.e.,  $\theta = 2.9\times10^{-4}$ radians. At this point, the corresponding distance $L$ is related to the angle $\theta = 2.9\times10^{-4}$ radians and $x$ by $\tan(2.9\times10^{-4}$ radians) = 1cm/$L$, from which we obtain a distance $L$ of 34 meters (100 ft). 
 
 ```{figure} ./images/Topic5/Fig5-11.jpg
 :width: 100%
