@@ -39,9 +39,9 @@ When light strikes the surface of a transparent medium at an angle other than no
 ```{figure} ./images/Topic5/Fig5-2.png
 :width: 80%
 :align: center
-:alt: Refraction at the interface of air and glass.   Note that the wavelength still shortens to compensate for decreased wave speed.
+:alt: Refraction at the interface of air and glass. Note that the wavelength still shortens to compensate for decreased wave speed.
 :label: Fig5-2
-Effect of light passing from a less dense medium (air) to a more dense medium (glass).  The wave slows down and the wavelength decreases.
+Refraction at the interface of air and glass. Note that the wavelength still shortens to compensate for decreased wave speed.
 ```
 The ability to bend light can be exploited to focus light using the effect illustrated in Fig. 2. For instance, some focusing can be achieved with the crude lens design shown in [](#Fig5-3), although not very effectively since not all portions of the incoming wave converge to a single point. A better design is achieved with a spherical surface, which is the shape that most is lenses utilize. 
 ```{figure} ./images/Topic5/Fig5-3.png
@@ -49,7 +49,7 @@ The ability to bend light can be exploited to focus light using the effect illus
 :align: center
 :alt: Crude lensing effect created by a piece of glass with a triangular profile.
 :label: Fig5-3
-Effect of light passing from a less dense medium (air) to a more dense medium (glass).  The wave slows down and the wavelength decreases.
+Crude lensing effect created by a piece of glass with a triangular profile.
 ```
 
 As we shall see, different parts of the eye have different indices of refraction and spherical shapes. Together they form a system capable of focusing light from near or distant objects and still produce a clear image on the retina.
@@ -63,7 +63,7 @@ There are two main types of thin lenses: converging (positive) lenses and diverg
 :align: center
 :alt: Left: light rays entering a converging (positive) lens.  Right: light rays entering a diverging (negative) lens.
 :label: Fig5-4
-Effect of light passing from a less dense medium (air) to a more dense medium (glass).  The wave slows down and the wavelength decreases.
+Left: light rays entering a converging (positive) lens.  Right: light rays entering a diverging (negative) lens.
 ```
 
 As the distant source moves closer, as shown in [](#Fig5-5)a and [](#Fig5-5)b, the focal point moves farther away from the lens. If $s$ is the distance from the object (light source) to the lens and $s'$ is the distance from the lens to the image (focus), $s$ and $s'$ are related to $f$ by the thin lens equation.
@@ -76,7 +76,7 @@ As the distant source moves closer, as shown in [](#Fig5-5)a and [](#Fig5-5)b, t
 :align: center
 :alt: Effects of image distance and lens shape on the location of the image distance.
 :label: Fig5-5
-Effect of light passing from a less dense medium (air) to a more dense medium (glass).  The wave slows down and the wavelength decreases.
+Effects of image distance and lens shape on the location of the image distance.
 ```
 As we shall see shortly, our eyesight possesses a mechanism that alters its focal length as needed to accommodate different objects distances.
 
@@ -92,7 +92,7 @@ The unit of power is the diopter, where 1 diopter = 1 m-1.  Figure 6 compares th
 :align: center
 :alt: The power of a lens with focal length $f$ = 1 m is $P$ = 1 diopter; $f$ = 0.5 m, $P$ = 2 diopters; $f$ = 0.1 m, $P$ = 10 diopters.
 :label: Fig5-6
-Effect of light passing from a less dense medium (air) to a more dense medium (glass).  The wave slows down and the wavelength decreases.
+The power of a lens with focal length $f$ = 1 m is $P$ = 1 diopter; $f$ = 0.5 m, $P$ = 2 diopters; $f$ = 0.1 m, $P$ = 10 diopters.
 ```
 When two or more lenses are combined, the resulting refractive power is equal to the sum of the refractive powers of each lens.
 \begin{equation}\label{eqn5-5}
@@ -108,7 +108,7 @@ where $R_1$ is the radius of curvature of the first surface light encounters as 
 :align: center
 :alt: Diagram of a lens for using the lensmaker's equation (Eqn.~(6)).
 :label: Fig5-7
-Effect of light passing from a less dense medium (air) to a more dense medium (glass).  The wave slows down and the wavelength decreases.
+Diagram of a lens for using the lensmaker's equation (Eqn.~(6)).
 ``` 
 
 # Optics of the Eye and Vision
@@ -119,7 +119,7 @@ With this background in optics, we are now ready to examine the optical componen
 :align: center
 :alt: Optical components of the eye and their indices of refraction.
 :label: Fig5-8
-Effect of light passing from a less dense medium (air) to a more dense medium (glass).  The wave slows down and the wavelength decreases.
+Optical components of the eye and their indices of refraction.
 ```
 The components of the eye are as follows:
 * **Cornea**.  The cornea is an optically clear membrane that holds in place the fluids inside the eye.  It is roughly spherical in shape.
@@ -145,7 +145,7 @@ To focus clearly on nearby objects, the eye must increase its total refractive p
 :align: center
 :alt: Mechanism of accommodation.
 :label: Fig5-9
-Effect of light passing from a less dense medium (air) to a more dense medium (glass).  The wave slows down and the wavelength decreases.
+Mechanism of accommodation.
 ```  
 The ciliary muscle is attached to the suspensory ligaments, which hold the lens in place.  When the ciliary muscle relaxes and expands, it pulls the ligaments away from the lens. The resulting increased tension on the lens causes it to assume the flattened shape needed for distance vision.  When the ciliary muscle contracts, the ligaments are forced inwards, causing the lens to assume a more spherical shape in which the radii of curvature increase.  This allows the eye to focus on nearby objects.  Through accommodation, the refractive power of the lens can increase from 17 diopters up to 31 diopters, a 14 diopter increase from normal refractive power.  Thus, it is said that the lens has an accommodation power of 14 diopters.
  
@@ -168,7 +168,7 @@ Visual acuity is defined as ability to visually resolve fine detail. The most co
 ```{figure} ./images/Topic5/Fig5-10.png
 :width: 100%
 :align: center
-:alt: A typical Snellen chart used by optometrist to determine visual acuity.
+:alt: A typical Snellen chart used by optometrist to determine visual acuity. By Jeff Dahl - [1], CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4262200
 :label: Fig5-10
 A typical Snellen chart used by optometrist to determine visual acuity. By Jeff Dahl - [1], CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4262200
 ```
@@ -180,7 +180,7 @@ In order to see the letters on the chart corresponding to 20/20, an eye must hav
 :align: center
 :alt: Diagram demonstrating the relevant variables for resolving two objects spaced a distance $x$ apart and a distance $L$ away from the viewer.
 :label: Fig5-11
-Effect of light passing from a less dense medium (air) to a more dense medium (glass).  The wave slows down and the wavelength decreases.
+Diagram demonstrating the relevant variables for resolving two objects spaced a distance $x$ apart and a distance $L$ away from the viewer.
 ```
 
 As we shall see now, the above limit of visual acuity is largely due to the wave nature of light. Before we discuss this interesting feature we must first consider how far apart those two luminous objects are when imaged on the retina. To calculate this distance we can make use of the relation between object and image sizes introduced in your Introductory Physics class
@@ -197,7 +197,7 @@ Diffraction, as you may recall, is the phenomenon that describes how waves sprea
 :align: center
 :alt: Diffraction produced as a wave passes through an aperture.
 :label: Fig5-12
-Effect of light passing from a less dense medium (air) to a more dense medium (glass).  The wave slows down and the wavelength decreases.
+Diffraction produced as a wave passes through an aperture.
 ```
 If $\theta$ is half the angle of divergence, $D$ is the size of the aperture, and $\lambda$ is the wavelength of light, diffraction theory predicts that these quantities are related by the formula
 \begin{equation}\label{eqn5-7}
@@ -211,7 +211,7 @@ The implication for the eye is illustrated with Fig. 13. The optics in the eye p
 :align: center
 :alt: The point of focus on the retina is finitely sharp due to diffraction.
 :label: Fig5-13
-Effect of light passing from a less dense medium (air) to a more dense medium (glass).  The wave slows down and the wavelength decreases.
+The point of focus on the retina is finitely sharp due to diffraction.
 ```  
 Let $q$ be the diameter of the pupil (in bright light, $q$ = 1.5 mm), $l$ be the distance from the pupil to the retina (1.5 cm), and $\theta$ be half the angle formed by the cone of light entering the eye.  Since $\tan\theta=q/2l$, and by the small angle approximation $\tan\theta\approx\theta$, we see that $\theta\approx0.05$ radians.  If we assume that the incoming light has wavelength 500 nm, the smallest point of light on the retina is found by solving for $D$:
 $$D = \frac{1.22\lambda}{\theta}=\frac{1.22\cdot 5\times10^{-7}}{0.05}.$$
@@ -221,7 +221,7 @@ So let us see how this spot size relates to our earlier calculation of the separ
 :align: center
 :alt: The Rayleigh criterion for minimum resolution.
 :label: Fig5-14
-Effect of light passing from a less dense medium (air) to a more dense medium (glass).  The wave slows down and the wavelength decreases.
+The Rayleigh criterion for minimum resolution.
 ```
 
 From the Rayleigh Criterion we can therefore argue that the minimum resolvable separation between two spots on the retina should be $D/2$, or 6 $\mu$m. This figure is very close to the 5 $\mu$m estimate we inferred from the definition of visual acuity. Diffraction explains why visual acuity is limited even for a person with perfect refractive power.
@@ -234,7 +234,7 @@ The role of the pupil is to limit the light intensity reaching the cornea.  In b
 :align: center
 :alt: The pupil size affects how clear an image will be.
 :label: Fig5-15
-Effect of light passing from a less dense medium (air) to a more dense medium (glass).  The wave slows down and the wavelength decreases.
+The pupil size affects how clear an image will be.
 ``` 
 The top image shows light entering the eye through a dilated pupil. If the eye were perfectly refracting, the rays would all converge to a point on the retina and the image would appear sharply focused. Instead the rays converge elsewhere, resulting in rays that are distributed over a small region of the retina. This image is seen by the eye as a fuzzy spot. The bottom image shows how light rays are affected when the pupil contracts. By confining the entering rays to a narrower bundle, the fuzziness of the image is diminished. 
 
@@ -248,7 +248,7 @@ The last section on the effects of pupillary diameter touched upon how the shape
 :align: center
 :alt: Parallel light rays focus on the retina in Emmetropia, behind the retina in Hyperopia, and before the retina in Myopia.
 :label: Fig5-16
-Effect of light passing from a less dense medium (air) to a more dense medium (glass).  The wave slows down and the wavelength decreases.
+Parallel light rays focus on the retina in Emmetropia, behind the retina in Hyperopia, and before the retina in Myopia.
 ```
 Since the total refractive power of the eye is the sum of its component refractive powers, we can correct Hyperopia and Myopia by placing extra lenses (eyeglasses or contacts) in front of the eye.  For Hyperopia, a focusing lens adds the extra convergence needed to bring the image into focus on the retina.  For Myopia, a diverging lens adds negative refractive power (divergence) to bring objects into focus.  [](#Fig5-17) shows how these types of correction work.
 ```{figure} ./images/Topic5/Fig5-17.jpg
@@ -256,7 +256,7 @@ Since the total refractive power of the eye is the sum of its component refracti
 :align: center
 :alt: A convex lens corrects Hyperopia, and a concave lens corrects Myopia.
 :label: Fig5-17
-Effect of light passing from a less dense medium (air) to a more dense medium (glass).  The wave slows down and the wavelength decreases.
+A convex lens corrects Hyperopia, and a concave lens corrects Myopia.
 ```
 
 How do we calculate the necessary refractive power of a lens?  Suppose a nearsighted person can only see clearly to a distance of 20 cm.  We must find the vision correction in diopters that allows this person to see distant objects clearly.  Recall Eqn. {eq}`Fig5-3`, which relates the object distance $s$, the image distance $s'$, and the focal length $f$ by 
@@ -275,7 +275,7 @@ Another common vision problem, astigmatism, arises most often when the cornea is
 :align: center
 :alt: The cornea of an astigmatic eye has different radii of curvature when viewed from the top and side.
 :label: Fig5-18
-Effect of light passing from a less dense medium (air) to a more dense medium (glass).  The wave slows down and the wavelength decreases.
+The cornea of an astigmatic eye has different radii of curvature when viewed from the top and side.
 ``` 
 Instead of all light rays from a point source focusing at one point, different planes of light focus at different distances, as seen in [](#Fig5-19).
 ```{figure} ./images/Topic5/Fig5-19.jpg
@@ -283,7 +283,7 @@ Instead of all light rays from a point source focusing at one point, different p
 :align: center
 :alt: Astigmatism. Light rays in different planes focus at different distances depending on how the radius of curvature of the lens varies.
 :label: Fig5-19
-Effect of light passing from a less dense medium (air) to a more dense medium (glass).  The wave slows down and the wavelength decreases.
+Astigmatism. Light rays in different planes focus at different distances depending on how the radius of curvature of the lens varies.
 ```
    
 Refractive errors, including astigmatism, can be corrected in several ways. A common way is by using eyeglasses to compensate for deficiencies or excesses of refractive power of the eye. The lenses can be easily tailored to correct for myopia, hyperopia, or astigmatism.  Contact lenses placed directly on the cornea work much like eyeglasses, and can even compensate for astigmatism. Alternatively, the cornea may be reshaped surgically with incisions or laser ablation to achieve the necessary changes in refractive power. This procedure is known as keratotomy. 
